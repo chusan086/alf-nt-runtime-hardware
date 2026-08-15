@@ -1,0 +1,6 @@
+# Exact excerpt from shared-5ns/openroad.log; original line numbers retained.
+3107:    Completing 100% with 0 violations.
+3109:[INFO DRT-0199]   Number of violations = 0.
+3140:[INFO DRT-0198] Complete detail routing.
+5192:[INFO ANT-0002] Found 0 net violations.
+5193:[INFO ANT-0001] Found 0 pin violations.

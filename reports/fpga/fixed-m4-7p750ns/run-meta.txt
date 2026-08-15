@@ -1,0 +1,7 @@
+mode=final_ram_fixed_single_pressure_point
+vivado_version=2020.2
+part=xc7a200tfbg676-2
+requested_period_ns=7.750
+implementation_directives=Explore,ExtraNetDelay_high,AggressiveExplore
+max_threads=16
+implementation_error=

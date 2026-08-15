@@ -1,0 +1,3224 @@
+Startpoint: _172656_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _172656_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355204    0.355204   clock network delay (propagated)
+               0.010840    0.000000    0.355204 ^ _172656_/CK (DFFR_X2)
+   1.083744    0.009081    0.074723    0.429926 ^ _172656_/QN (DFFR_X2)
+                                                  _000039_ (net)
+               0.009081    0.000017    0.429944 ^ _167649_/B (MUX2_X1)
+   1.621955    0.008700    0.035128    0.465071 ^ _167649_/Z (MUX2_X1)
+                                                  _014391_ (net)
+               0.008700    0.000060    0.465131 ^ _172656_/D (DFFR_X2)
+                                       0.465131   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355204    0.355204   clock network delay (propagated)
+                           0.100000    0.455204   clock uncertainty
+                           0.000000    0.455204   clock reconvergence pessimism
+                                       0.455204 ^ _172656_/CK (DFFR_X2)
+                           0.007935    0.463138   library hold time
+                                       0.463138   data required time
+---------------------------------------------------------------------------------------
+                                       0.463138   data required time
+                                      -0.465131   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.001993   slack (MET)
+
+
+Startpoint: _175582_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _175628_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358101    0.358101   clock network delay (propagated)
+               0.011547    0.000000    0.358101 ^ _175582_/CK (DFF_X1)
+   2.221855    0.009450    0.091243    0.449344 ^ _175582_/Q (DFF_X1)
+                                                  operation_descriptor.profile_schedule_q[41] (net)
+               0.009450    0.000095    0.449438 ^ _167051_/B2 (AOI22_X1)
+   1.692714    0.008220    0.017945    0.467383 v _167051_/ZN (AOI22_X1)
+                                                  _016841_ (net)
+               0.008220    0.000028    0.467412 v _167052_/A (INV_X1)
+   1.488290    0.006476    0.011615    0.479027 ^ _167052_/ZN (INV_X1)
+                                                  _014143_ (net)
+               0.006476    0.000048    0.479075 ^ _175628_/D (DFFR_X1)
+                                       0.479075   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.366927    0.366927   clock network delay (propagated)
+                           0.100000    0.466927   clock uncertainty
+                           0.000000    0.466927   clock reconvergence pessimism
+                                       0.466927 ^ _175628_/CK (DFFR_X1)
+                           0.007839    0.474767   library hold time
+                                       0.474767   data required time
+---------------------------------------------------------------------------------------
+                                       0.474767   data required time
+                                      -0.479075   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.004308   slack (MET)
+
+
+Startpoint: _175579_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _175624_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358115    0.358115   clock network delay (propagated)
+               0.011547    0.000000    0.358115 ^ _175579_/CK (DFF_X1)
+   1.965057    0.009012    0.090745    0.448861 ^ _175579_/Q (DFF_X1)
+                                                  operation_descriptor.profile_schedule_q[37] (net)
+               0.009012    0.000050    0.448911 ^ _167059_/B2 (AOI22_X1)
+   1.984818    0.008622    0.018488    0.467399 v _167059_/ZN (AOI22_X1)
+                                                  _016845_ (net)
+               0.008622    0.000058    0.467458 v _167060_/A (INV_X1)
+   1.595552    0.006776    0.012096    0.479553 ^ _167060_/ZN (INV_X1)
+                                                  _014147_ (net)
+               0.006776    0.000058    0.479612 ^ _175624_/D (DFFR_X1)
+                                       0.479612   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.366735    0.366735   clock network delay (propagated)
+                           0.100000    0.466735   clock uncertainty
+                           0.000000    0.466735   clock reconvergence pessimism
+                                       0.466735 ^ _175624_/CK (DFFR_X1)
+                           0.007920    0.474656   library hold time
+                                       0.474656   data required time
+---------------------------------------------------------------------------------------
+                                       0.474656   data required time
+                                      -0.479612   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.004956   slack (MET)
+
+
+Startpoint: _175478_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _175630_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358591    0.358591   clock network delay (propagated)
+               0.011765    0.000000    0.358591 ^ _175478_/CK (DFF_X1)
+   2.634713    0.010152    0.092134    0.450725 ^ _175478_/Q (DFF_X1)
+                                                  operation_descriptor.profile_schedule_q[14] (net)
+               0.010152    0.000153    0.450878 ^ _167047_/B2 (AOI22_X1)
+   1.679896    0.008169    0.018136    0.469014 v _167047_/ZN (AOI22_X1)
+                                                  _016839_ (net)
+               0.008169    0.000027    0.469041 v _167048_/A (INV_X1)
+   1.567219    0.006625    0.011807    0.480848 ^ _167048_/ZN (INV_X1)
+                                                  _014141_ (net)
+               0.006625    0.000055    0.480903 ^ _175630_/D (DFFR_X1)
+                                       0.480903   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.367024    0.367024   clock network delay (propagated)
+                           0.100000    0.467024   clock uncertainty
+                           0.000000    0.467024   clock reconvergence pessimism
+                                       0.467024 ^ _175630_/CK (DFFR_X1)
+                           0.007887    0.474911   library hold time
+                                       0.474911   data required time
+---------------------------------------------------------------------------------------
+                                       0.474911   data required time
+                                      -0.480903   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.005992   slack (MET)
+
+
+Startpoint: _173636_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _172856_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348766    0.348766   clock network delay (propagated)
+               0.012289    0.000000    0.348766 ^ _173636_/CK (DFFR_X1)
+   3.257812    0.008228    0.092306    0.441072 v _173636_/Q (DFFR_X1)
+                                                  frontend.tweak_o[5] (net)
+               0.008228    0.000108    0.441180 v _118736_/A1 (AOI22_X1)
+   2.275105    0.015328    0.022501    0.463681 ^ _118736_/ZN (AOI22_X1)
+                                                  _043610_ (net)
+               0.015328    0.000095    0.463776 ^ _118737_/A (INV_X1)
+   1.340451    0.005111    0.007849    0.471625 v _118737_/ZN (INV_X1)
+                                                  _003057_ (net)
+               0.005111    0.000030    0.471655 v _172856_/D (DFFR_X1)
+                                       0.471655   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.359633    0.359633   clock network delay (propagated)
+                           0.100000    0.459633   clock uncertainty
+                           0.000000    0.459633   clock reconvergence pessimism
+                                       0.459633 ^ _172856_/CK (DFFR_X1)
+                           0.005161    0.464793   library hold time
+                                       0.464793   data required time
+---------------------------------------------------------------------------------------
+                                       0.464793   data required time
+                                      -0.471655   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.006861   slack (MET)
+
+
+Startpoint: _175484_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _175633_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.359845    0.359845   clock network delay (propagated)
+               0.012276    0.000000    0.359845 ^ _175484_/CK (DFF_X1)
+   2.380835    0.009721    0.091855    0.451701 ^ _175484_/Q (DFF_X1)
+                                                  operation_descriptor.profile_schedule_q[110] (net)
+               0.009721    0.000111    0.451812 ^ _167041_/B2 (AOI22_X1)
+   1.892845    0.008515    0.018494    0.470307 v _167041_/ZN (AOI22_X1)
+                                                  _016836_ (net)
+               0.008515    0.000062    0.470368 v _167042_/A (INV_X1)
+   1.502457    0.006566    0.011790    0.482158 ^ _167042_/ZN (INV_X1)
+                                                  _014138_ (net)
+               0.006566    0.000049    0.482207 ^ _175633_/D (DFFR_X1)
+                                       0.482207   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.367084    0.367084   clock network delay (propagated)
+                           0.100000    0.467084   clock uncertainty
+                           0.000000    0.467084   clock reconvergence pessimism
+                                       0.467084 ^ _175633_/CK (DFFR_X1)
+                           0.007935    0.475019   library hold time
+                                       0.475019   data required time
+---------------------------------------------------------------------------------------
+                                       0.475019   data required time
+                                      -0.482207   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.007188   slack (MET)
+
+
+Startpoint: _180636_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180636_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348563    0.348563   clock network delay (propagated)
+               0.011424    0.000000    0.348563 ^ _180636_/CK (DFF_X1)
+   2.099639    0.006795    0.084482    0.433045 v _180636_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[26][120] (net)
+               0.006795    0.000042    0.433087 v _159646_/A1 (AND2_X1)
+   1.430450    0.005589    0.026818    0.459904 v _159646_/ZN (AND2_X1)
+                                                  _009176_ (net)
+               0.005589    0.000046    0.459950 v _180636_/D (DFF_X1)
+                                       0.459950   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348563    0.348563   clock network delay (propagated)
+                           0.100000    0.448563   clock uncertainty
+                           0.000000    0.448563   clock reconvergence pessimism
+                                       0.448563 ^ _180636_/CK (DFF_X1)
+                           0.004020    0.452582   library hold time
+                                       0.452582   data required time
+---------------------------------------------------------------------------------------
+                                       0.452582   data required time
+                                      -0.459950   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.007368   slack (MET)
+
+
+Startpoint: _173581_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _172929_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.343428    0.343428   clock network delay (propagated)
+               0.011179    0.000000    0.343428 ^ _173581_/CK (DFFR_X1)
+   3.114796    0.008095    0.091593    0.435021 v _173581_/Q (DFFR_X1)
+                                                  frontend.tweak_o[78] (net)
+               0.008095    0.000099    0.435120 v _118590_/A1 (AOI22_X1)
+   2.011898    0.014480    0.021458    0.456578 ^ _118590_/ZN (AOI22_X1)
+                                                  _043537_ (net)
+               0.014480    0.000049    0.456627 ^ _118591_/A (INV_X1)
+   1.416454    0.004994    0.007872    0.464498 v _118591_/ZN (INV_X1)
+                                                  _002984_ (net)
+               0.004995    0.000046    0.464544 v _172929_/D (DFFR_X1)
+                                       0.464544   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.351938    0.351938   clock network delay (propagated)
+                           0.100000    0.451938   clock uncertainty
+                           0.000000    0.451938   clock reconvergence pessimism
+                                       0.451938 ^ _172929_/CK (DFFR_X1)
+                           0.005191    0.457129   library hold time
+                                       0.457129   data required time
+---------------------------------------------------------------------------------------
+                                       0.457129   data required time
+                                      -0.464544   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.007415   slack (MET)
+
+
+Startpoint: _180771_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180771_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358122    0.358122   clock network delay (propagated)
+               0.011807    0.000000    0.358122 ^ _180771_/CK (DFF_X1)
+   2.172945    0.006858    0.084769    0.442891 v _180771_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[25][127] (net)
+               0.006858    0.000055    0.442946 v _167431_/A1 (AND2_X1)
+   1.356470    0.005513    0.026683    0.469630 v _167431_/ZN (AND2_X1)
+                                                  _014294_ (net)
+               0.005513    0.000031    0.469660 v _180771_/D (DFF_X1)
+                                       0.469660   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358122    0.358122   clock network delay (propagated)
+                           0.100000    0.458122   clock uncertainty
+                           0.000000    0.458122   clock reconvergence pessimism
+                                       0.458122 ^ _180771_/CK (DFF_X1)
+                           0.004096    0.462218   library hold time
+                                       0.462218   data required time
+---------------------------------------------------------------------------------------
+                                       0.462218   data required time
+                                      -0.469660   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.007442   slack (MET)
+
+
+Startpoint: _182942_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182942_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352828    0.352828   clock network delay (propagated)
+               0.011413    0.000000    0.352828 ^ _182942_/CK (DFF_X1)
+   2.183401    0.006867    0.084620    0.437449 v _182942_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[8][122] (net)
+               0.006867    0.000057    0.437506 v _157320_/A1 (AND2_X1)
+   1.586959    0.005750    0.027211    0.464717 v _157320_/ZN (AND2_X1)
+                                                  _006888_ (net)
+               0.005750    0.000060    0.464777 v _182942_/D (DFF_X1)
+                                       0.464777   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352828    0.352828   clock network delay (propagated)
+                           0.100000    0.452828   clock uncertainty
+                           0.000000    0.452828   clock reconvergence pessimism
+                                       0.452828 ^ _182942_/CK (DFF_X1)
+                           0.004024    0.456853   library hold time
+                                       0.456853   data required time
+---------------------------------------------------------------------------------------
+                                       0.456853   data required time
+                                      -0.464777   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.007924   slack (MET)
+
+
+Startpoint: _180637_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180637_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358351    0.358351   clock network delay (propagated)
+               0.011708    0.000000    0.358351 ^ _180637_/CK (DFF_X1)
+   2.259294    0.006933    0.084872    0.443223 v _180637_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[26][121] (net)
+               0.006933    0.000049    0.443272 v _159645_/A1 (AND2_X1)
+   1.517474    0.005678    0.027086    0.470358 v _159645_/ZN (AND2_X1)
+                                                  _009175_ (net)
+               0.005678    0.000053    0.470411 v _180637_/D (DFF_X1)
+                                       0.470411   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358351    0.358351   clock network delay (propagated)
+                           0.100000    0.458351   clock uncertainty
+                           0.000000    0.458351   clock reconvergence pessimism
+                                       0.458351 ^ _180637_/CK (DFF_X1)
+                           0.004082    0.462433   library hold time
+                                       0.462433   data required time
+---------------------------------------------------------------------------------------
+                                       0.462433   data required time
+                                      -0.470411   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.007978   slack (MET)
+
+
+Startpoint: _182944_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182944_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354420    0.354420   clock network delay (propagated)
+               0.012590    0.000000    0.354420 ^ _182944_/CK (DFF_X1)
+   2.349691    0.007010    0.085401    0.439821 v _182944_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[8][124] (net)
+               0.007010    0.000051    0.439872 v _157318_/A1 (AND2_X1)
+   1.370410    0.005528    0.026789    0.466661 v _157318_/ZN (AND2_X1)
+                                                  _006886_ (net)
+               0.005528    0.000041    0.466703 v _182944_/D (DFF_X1)
+                                       0.466703   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354420    0.354420   clock network delay (propagated)
+                           0.100000    0.454420   clock uncertainty
+                           0.000000    0.454420   clock reconvergence pessimism
+                                       0.454420 ^ _182944_/CK (DFF_X1)
+                           0.004258    0.458678   library hold time
+                                       0.458678   data required time
+---------------------------------------------------------------------------------------
+                                       0.458678   data required time
+                                      -0.466703   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008024   slack (MET)
+
+
+Startpoint: _181535_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181535_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.347702    0.347702   clock network delay (propagated)
+               0.011496    0.000000    0.347702 ^ _181535_/CK (DFF_X1)
+   2.526927    0.007162    0.085248    0.432951 v _181535_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[19][123] (net)
+               0.007162    0.000020    0.432971 v _158740_/A1 (AND2_X1)
+   1.334656    0.005492    0.026784    0.459755 v _158740_/ZN (AND2_X1)
+                                                  _008284_ (net)
+               0.005492    0.000038    0.459793 v _181535_/D (DFF_X1)
+                                       0.459793   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.347702    0.347702   clock network delay (propagated)
+                           0.100000    0.447702   clock uncertainty
+                           0.000000    0.447702   clock reconvergence pessimism
+                                       0.447702 ^ _181535_/CK (DFF_X1)
+                           0.004030    0.451733   library hold time
+                                       0.451733   data required time
+---------------------------------------------------------------------------------------
+                                       0.451733   data required time
+                                      -0.459793   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008060   slack (MET)
+
+
+Startpoint: _182687_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182687_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352328    0.352328   clock network delay (propagated)
+               0.011313    0.000000    0.352328 ^ _182687_/CK (DFF_X1)
+   2.575458    0.007204    0.085233    0.437561 v _182687_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[10][123] (net)
+               0.007205    0.000095    0.437657 v _157577_/A1 (AND2_X1)
+   1.290359    0.005446    0.026707    0.464364 v _157577_/ZN (AND2_X1)
+                                                  _007141_ (net)
+               0.005446    0.000026    0.464390 v _182687_/D (DFF_X1)
+                                       0.464390   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352328    0.352328   clock network delay (propagated)
+                           0.100000    0.452328   clock uncertainty
+                           0.000000    0.452328   clock reconvergence pessimism
+                                       0.452328 ^ _182687_/CK (DFF_X1)
+                           0.003991    0.456319   library hold time
+                                       0.456319   data required time
+---------------------------------------------------------------------------------------
+                                       0.456319   data required time
+                                      -0.464390   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008071   slack (MET)
+
+
+Startpoint: _182686_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182686_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353231    0.353231   clock network delay (propagated)
+               0.011939    0.000000    0.353231 ^ _182686_/CK (DFF_X1)
+   2.658208    0.007275    0.085645    0.438876 v _182686_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[10][122] (net)
+               0.007275    0.000086    0.438962 v _157578_/A1 (AND2_X1)
+   1.190517    0.005345    0.026514    0.465476 v _157578_/ZN (AND2_X1)
+                                                  _007142_ (net)
+               0.005345    0.000019    0.465495 v _182686_/D (DFF_X1)
+                                       0.465495   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353231    0.353231   clock network delay (propagated)
+                           0.100000    0.453231   clock uncertainty
+                           0.000000    0.453231   clock reconvergence pessimism
+                                       0.453231 ^ _182686_/CK (DFF_X1)
+                           0.004116    0.457347   library hold time
+                                       0.457347   data required time
+---------------------------------------------------------------------------------------
+                                       0.457347   data required time
+                                      -0.465495   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008148   slack (MET)
+
+
+Startpoint: _180255_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180255_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358104    0.358104   clock network delay (propagated)
+               0.011534    0.000000    0.358104 ^ _180255_/CK (DFF_X1)
+   2.684367    0.007297    0.085529    0.443634 v _180255_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[29][123] (net)
+               0.007297    0.000044    0.443678 v _160030_/A1 (AND2_X1)
+   1.258652    0.005414    0.026681    0.470359 v _160030_/ZN (AND2_X1)
+                                                  _009554_ (net)
+               0.005414    0.000024    0.470383 v _180255_/D (DFF_X1)
+                                       0.470383   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358104    0.358104   clock network delay (propagated)
+                           0.100000    0.458104   clock uncertainty
+                           0.000000    0.458104   clock reconvergence pessimism
+                                       0.458104 ^ _180255_/CK (DFF_X1)
+                           0.004035    0.462140   library hold time
+                                       0.462140   data required time
+---------------------------------------------------------------------------------------
+                                       0.462140   data required time
+                                      -0.470383   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008243   slack (MET)
+
+
+Startpoint: _183202_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183202_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355760    0.355760   clock network delay (propagated)
+               0.011959    0.000000    0.355760 ^ _183202_/CK (DFF_X1)
+   2.551888    0.007183    0.085487    0.441248 v _183202_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[6][126] (net)
+               0.007183    0.000021    0.441269 v _157056_/A1 (AND2_X1)
+   1.348823    0.005506    0.026827    0.468096 v _157056_/ZN (AND2_X1)
+                                                  _006630_ (net)
+               0.005506    0.000040    0.468136 v _183202_/D (DFF_X1)
+                                       0.468136   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355760    0.355760   clock network delay (propagated)
+                           0.100000    0.455760   clock uncertainty
+                           0.000000    0.455760   clock reconvergence pessimism
+                                       0.455760 ^ _183202_/CK (DFF_X1)
+                           0.004127    0.459887   library hold time
+                                       0.459887   data required time
+---------------------------------------------------------------------------------------
+                                       0.459887   data required time
+                                      -0.468136   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008249   slack (MET)
+
+
+Startpoint: _175334_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _172650_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355538    0.355538   clock network delay (propagated)
+               0.011091    0.000000    0.355538 ^ _175334_/CK (DFFR_X2)
+   1.871243    0.009999    0.076446    0.431984 ^ _175334_/QN (DFFR_X2)
+                                                  _000490_ (net)
+               0.009999    0.000034    0.432018 ^ _092508_/A (INV_X1)
+   7.742684    0.009475    0.016110    0.448128 v _092508_/ZN (INV_X1)
+                                                  _019989_ (net)
+               0.009475    0.000202    0.448330 v _167634_/A1 (OAI22_X1)
+   1.797370    0.018428    0.026947    0.475277 ^ _167634_/ZN (OAI22_X1)
+                                                  _014383_ (net)
+               0.018428    0.000074    0.475351 ^ _172650_/D (DFFR_X1)
+                                       0.475351   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355589    0.355589   clock network delay (propagated)
+                           0.100000    0.455589   clock uncertainty
+                           0.000000    0.455589   clock reconvergence pessimism
+                                       0.455589 ^ _172650_/CK (DFFR_X1)
+                           0.011495    0.467084   library hold time
+                                       0.467084   data required time
+---------------------------------------------------------------------------------------
+                                       0.467084   data required time
+                                      -0.475351   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008267   slack (MET)
+
+
+Startpoint: _181534_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181534_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348102    0.348102   clock network delay (propagated)
+               0.011545    0.000000    0.348102 ^ _181534_/CK (DFF_X1)
+   2.660962    0.007277    0.085496    0.433598 v _181534_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[19][122] (net)
+               0.007277    0.000042    0.433640 v _158741_/A1 (AND2_X1)
+   1.326113    0.005483    0.026826    0.460465 v _158741_/ZN (AND2_X1)
+                                                  _008285_ (net)
+               0.005483    0.000028    0.460494 v _181534_/D (DFF_X1)
+                                       0.460494   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348102    0.348102   clock network delay (propagated)
+                           0.100000    0.448102   clock uncertainty
+                           0.000000    0.448102   clock reconvergence pessimism
+                                       0.448102 ^ _181534_/CK (DFF_X1)
+                           0.004040    0.452142   library hold time
+                                       0.452142   data required time
+---------------------------------------------------------------------------------------
+                                       0.452142   data required time
+                                      -0.460494   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008352   slack (MET)
+
+
+Startpoint: _182301_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182301_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352337    0.352337   clock network delay (propagated)
+               0.011313    0.000000    0.352337 ^ _182301_/CK (DFF_X1)
+   2.789268    0.007388    0.085598    0.437935 v _182301_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[13][121] (net)
+               0.007388    0.000074    0.438010 v _157966_/A1 (AND2_X1)
+   1.229644    0.005385    0.026661    0.464671 v _157966_/ZN (AND2_X1)
+                                                  _007524_ (net)
+               0.005385    0.000022    0.464692 v _182301_/D (DFF_X1)
+                                       0.464692   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352337    0.352337   clock network delay (propagated)
+                           0.100000    0.452337   clock uncertainty
+                           0.000000    0.452337   clock reconvergence pessimism
+                                       0.452337 ^ _182301_/CK (DFF_X1)
+                           0.003988    0.456325   library hold time
+                                       0.456325   data required time
+---------------------------------------------------------------------------------------
+                                       0.456325   data required time
+                                      -0.464692   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008367   slack (MET)
+
+
+Startpoint: _182688_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182688_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354309    0.354309   clock network delay (propagated)
+               0.012410    0.000000    0.354309 ^ _182688_/CK (DFF_X1)
+   2.286389    0.006956    0.085217    0.439527 v _182688_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[10][124] (net)
+               0.006956    0.000058    0.439585 v _157576_/A1 (AND2_X1)
+   1.623388    0.005788    0.027339    0.466923 v _157576_/ZN (AND2_X1)
+                                                  _007140_ (net)
+               0.005788    0.000063    0.466987 v _182688_/D (DFF_X1)
+                                       0.466987   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354309    0.354309   clock network delay (propagated)
+                           0.100000    0.454309   clock uncertainty
+                           0.000000    0.454309   clock reconvergence pessimism
+                                       0.454309 ^ _182688_/CK (DFF_X1)
+                           0.004231    0.458541   library hold time
+                                       0.458541   data required time
+---------------------------------------------------------------------------------------
+                                       0.458541   data required time
+                                      -0.466987   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008446   slack (MET)
+
+
+Startpoint: _182941_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182941_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352848    0.352848   clock network delay (propagated)
+               0.011413    0.000000    0.352848 ^ _182941_/CK (DFF_X1)
+   2.822771    0.007417    0.085707    0.438555 v _182941_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[8][121] (net)
+               0.007417    0.000053    0.438607 v _157321_/A1 (AND2_X1)
+   1.233017    0.005388    0.026683    0.465290 v _157321_/ZN (AND2_X1)
+                                                  _006889_ (net)
+               0.005388    0.000022    0.465312 v _182941_/D (DFF_X1)
+                                       0.465312   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352848    0.352848   clock network delay (propagated)
+                           0.100000    0.452848   clock uncertainty
+                           0.000000    0.452848   clock reconvergence pessimism
+                                       0.452848 ^ _182941_/CK (DFF_X1)
+                           0.004009    0.456857   library hold time
+                                       0.456857   data required time
+---------------------------------------------------------------------------------------
+                                       0.456857   data required time
+                                      -0.465312   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008455   slack (MET)
+
+
+Startpoint: _182050_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182050_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352692    0.352692   clock network delay (propagated)
+               0.011633    0.000000    0.352692 ^ _182050_/CK (DFF_X1)
+   2.851332    0.007443    0.085837    0.438529 v _182050_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[15][126] (net)
+               0.007443    0.000085    0.438614 v _158217_/A1 (AND2_X1)
+   1.181747    0.005336    0.026579    0.465193 v _158217_/ZN (AND2_X1)
+                                                  _007773_ (net)
+               0.005336    0.000019    0.465211 v _182050_/D (DFF_X1)
+                                       0.465211   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352692    0.352692   clock network delay (propagated)
+                           0.100000    0.452692   clock uncertainty
+                           0.000000    0.452692   clock reconvergence pessimism
+                                       0.452692 ^ _182050_/CK (DFF_X1)
+                           0.004052    0.456744   library hold time
+                                       0.456744   data required time
+---------------------------------------------------------------------------------------
+                                       0.456744   data required time
+                                      -0.465211   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008467   slack (MET)
+
+
+Startpoint: _180003_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180003_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358322    0.358322   clock network delay (propagated)
+               0.011708    0.000000    0.358322 ^ _180003_/CK (DFF_X1)
+   2.847395    0.007439    0.085873    0.444195 v _180003_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[31][127] (net)
+               0.007439    0.000056    0.444251 v _167425_/A1 (AND2_X1)
+   1.205359    0.005360    0.026631    0.470882 v _167425_/ZN (AND2_X1)
+                                                  _014288_ (net)
+               0.005360    0.000020    0.470902 v _180003_/D (DFF_X1)
+                                       0.470902   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358322    0.358322   clock network delay (propagated)
+                           0.100000    0.458322   clock uncertainty
+                           0.000000    0.458322   clock reconvergence pessimism
+                                       0.458322 ^ _180003_/CK (DFF_X1)
+                           0.004069    0.462391   library hold time
+                                       0.462391   data required time
+---------------------------------------------------------------------------------------
+                                       0.462391   data required time
+                                      -0.470902   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008511   slack (MET)
+
+
+Startpoint: _180769_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180769_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348710    0.348710   clock network delay (propagated)
+               0.011424    0.000000    0.348710 ^ _180769_/CK (DFF_X1)
+   2.735506    0.007341    0.085566    0.434276 v _180769_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[25][125] (net)
+               0.007341    0.000021    0.434297 v _159512_/A1 (AND2_X1)
+   1.348823    0.005507    0.026907    0.461204 v _159512_/ZN (AND2_X1)
+                                                  _009044_ (net)
+               0.005507    0.000039    0.461243 v _180769_/D (DFF_X1)
+                                       0.461243   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348710    0.348710   clock network delay (propagated)
+                           0.100000    0.448710   clock uncertainty
+                           0.000000    0.448710   clock reconvergence pessimism
+                                       0.448710 ^ _180769_/CK (DFF_X1)
+                           0.004016    0.452726   library hold time
+                                       0.452726   data required time
+---------------------------------------------------------------------------------------
+                                       0.452726   data required time
+                                      -0.461243   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008518   slack (MET)
+
+
+Startpoint: _180254_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180254_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357769    0.357769   clock network delay (propagated)
+               0.011405    0.000000    0.357769 ^ _180254_/CK (DFF_X1)
+   2.682303    0.007295    0.085470    0.443240 v _180254_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[29][122] (net)
+               0.007295    0.000028    0.443268 v _160031_/A1 (AND2_X1)
+   1.396045    0.005555    0.026992    0.470260 v _160031_/ZN (AND2_X1)
+                                                  _009555_ (net)
+               0.005555    0.000043    0.470303 v _180254_/D (DFF_X1)
+                                       0.470303   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357769    0.357769   clock network delay (propagated)
+                           0.100000    0.457769   clock uncertainty
+                           0.000000    0.457769   clock reconvergence pessimism
+                                       0.457769 ^ _180254_/CK (DFF_X1)
+                           0.004014    0.461783   library hold time
+                                       0.461783   data required time
+---------------------------------------------------------------------------------------
+                                       0.461783   data required time
+                                      -0.470303   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008520   slack (MET)
+
+
+Startpoint: _183968_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183968_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353758    0.353758   clock network delay (propagated)
+               0.011882    0.000000    0.353758 ^ _183968_/CK (DFF_X1)
+   2.818950    0.007413    0.085902    0.439660 v _183968_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[0][124] (net)
+               0.007413    0.000054    0.439714 v _152899_/A1 (AND2_X1)
+   1.220200    0.005375    0.026652    0.466366 v _152899_/ZN (AND2_X1)
+                                                  _005870_ (net)
+               0.005375    0.000021    0.466387 v _183968_/D (DFF_X1)
+                                       0.466387   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353758    0.353758   clock network delay (propagated)
+                           0.100000    0.453758   clock uncertainty
+                           0.000000    0.453758   clock reconvergence pessimism
+                                       0.453758 ^ _183968_/CK (DFF_X1)
+                           0.004105    0.457863   library hold time
+                                       0.457863   data required time
+---------------------------------------------------------------------------------------
+                                       0.457863   data required time
+                                      -0.466387   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008524   slack (MET)
+
+
+Startpoint: _181922_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181922_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348930    0.348930   clock network delay (propagated)
+               0.011781    0.000000    0.348930 ^ _181922_/CK (DFF_X1)
+   2.707641    0.007317    0.085674    0.434604 v _181922_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[16][126] (net)
+               0.007317    0.000047    0.434651 v _158350_/A1 (AND2_X1)
+   1.338930    0.005496    0.026875    0.461526 v _158350_/ZN (AND2_X1)
+                                                  _007900_ (net)
+               0.005496    0.000030    0.461556 v _181922_/D (DFF_X1)
+                                       0.461556   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348930    0.348930   clock network delay (propagated)
+                           0.100000    0.448930   clock uncertainty
+                           0.000000    0.448930   clock reconvergence pessimism
+                                       0.448930 ^ _181922_/CK (DFF_X1)
+                           0.004090    0.453020   library hold time
+                                       0.453020   data required time
+---------------------------------------------------------------------------------------
+                                       0.453020   data required time
+                                      -0.461556   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008536   slack (MET)
+
+
+Startpoint: _173924_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _173208_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349730    0.349730   clock network delay (propagated)
+               0.011153    0.000000    0.349730 ^ _173924_/CK (DFFR_X1)
+   3.523135    0.008476    0.092327    0.442057 v _173924_/Q (DFFR_X1)
+                                                  frontend.q_minus_one_o[101] (net)
+               0.008476    0.000058    0.442114 v _118036_/A1 (AOI22_X1)
+   1.865846    0.014024    0.021085    0.463200 ^ _118036_/ZN (AOI22_X1)
+                                                  _043260_ (net)
+               0.014024    0.000034    0.463233 ^ _118037_/A (INV_X1)
+   1.432197    0.004906    0.007827    0.471060 v _118037_/ZN (INV_X1)
+                                                  _002707_ (net)
+               0.004906    0.000037    0.471097 v _173208_/D (DFFR_X1)
+                                       0.471097   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357413    0.357413   clock network delay (propagated)
+                           0.100000    0.457413   clock uncertainty
+                           0.000000    0.457413   clock reconvergence pessimism
+                                       0.457413 ^ _173208_/CK (DFFR_X1)
+                           0.005140    0.462553   library hold time
+                                       0.462553   data required time
+---------------------------------------------------------------------------------------
+                                       0.462553   data required time
+                                      -0.471097   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008545   slack (MET)
+
+
+Startpoint: _183074_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183074_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355704    0.355704   clock network delay (propagated)
+               0.011959    0.000000    0.355704 ^ _183074_/CK (DFF_X1)
+   2.808831    0.007405    0.085905    0.441609 v _183074_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[7][126] (net)
+               0.007405    0.000078    0.441687 v _157185_/A1 (AND2_X1)
+   1.233017    0.005388    0.026677    0.468364 v _157185_/ZN (AND2_X1)
+                                                  _006757_ (net)
+               0.005388    0.000022    0.468386 v _183074_/D (DFF_X1)
+                                       0.468386   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355704    0.355704   clock network delay (propagated)
+                           0.100000    0.455704   clock uncertainty
+                           0.000000    0.455704   clock reconvergence pessimism
+                                       0.455704 ^ _183074_/CK (DFF_X1)
+                           0.004122    0.459825   library hold time
+                                       0.459825   data required time
+---------------------------------------------------------------------------------------
+                                       0.459825   data required time
+                                      -0.468386   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008560   slack (MET)
+
+
+Startpoint: _181533_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181533_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348643    0.348643   clock network delay (propagated)
+               0.011424    0.000000    0.348643 ^ _181533_/CK (DFF_X1)
+   2.885254    0.007473    0.085807    0.434450 v _181533_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[19][121] (net)
+               0.007473    0.000087    0.434537 v _158742_/A1 (AND2_X1)
+   1.211430    0.005367    0.026662    0.461199 v _158742_/ZN (AND2_X1)
+                                                  _008286_ (net)
+               0.005367    0.000020    0.461219 v _181533_/D (DFF_X1)
+                                       0.461219   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348643    0.348643   clock network delay (propagated)
+                           0.100000    0.448643   clock uncertainty
+                           0.000000    0.448643   clock reconvergence pessimism
+                                       0.448643 ^ _181533_/CK (DFF_X1)
+                           0.004010    0.452653   library hold time
+                                       0.452653   data required time
+---------------------------------------------------------------------------------------
+                                       0.452653   data required time
+                                      -0.461219   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008566   slack (MET)
+
+
+Startpoint: _180256_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180256_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358055    0.358055   clock network delay (propagated)
+               0.011534    0.000000    0.358055 ^ _180256_/CK (DFF_X1)
+   2.812204    0.007408    0.085732    0.443787 v _180256_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[29][124] (net)
+               0.007408    0.000085    0.443872 v _160029_/A1 (AND2_X1)
+   1.276192    0.005432    0.026778    0.470649 v _160029_/ZN (AND2_X1)
+                                                  _009553_ (net)
+               0.005432    0.000025    0.470674 v _180256_/D (DFF_X1)
+                                       0.470674   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358055    0.358055   clock network delay (propagated)
+                           0.100000    0.458055   clock uncertainty
+                           0.000000    0.458055   clock reconvergence pessimism
+                                       0.458055 ^ _180256_/CK (DFF_X1)
+                           0.004036    0.462091   library hold time
+                                       0.462091   data required time
+---------------------------------------------------------------------------------------
+                                       0.462091   data required time
+                                      -0.470674   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008584   slack (MET)
+
+
+Startpoint: _182690_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182690_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352714    0.352714   clock network delay (propagated)
+               0.011633    0.000000    0.352714 ^ _182690_/CK (DFF_X1)
+   2.620843    0.007243    0.085459    0.438173 v _182690_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[10][126] (net)
+               0.007243    0.000049    0.438222 v _157574_/A1 (AND2_X1)
+   1.452038    0.005612    0.027093    0.465315 v _157574_/ZN (AND2_X1)
+                                                  _007138_ (net)
+               0.005612    0.000049    0.465363 v _182690_/D (DFF_X1)
+                                       0.465363   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352714    0.352714   clock network delay (propagated)
+                           0.100000    0.452714   clock uncertainty
+                           0.000000    0.452714   clock reconvergence pessimism
+                                       0.452714 ^ _182690_/CK (DFF_X1)
+                           0.004064    0.456778   library hold time
+                                       0.456778   data required time
+---------------------------------------------------------------------------------------
+                                       0.456778   data required time
+                                      -0.465363   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008585   slack (MET)
+
+
+Startpoint: _182048_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182048_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354257    0.354257   clock network delay (propagated)
+               0.012409    0.000000    0.354257 ^ _182048_/CK (DFF_X1)
+   2.791966    0.007390    0.086068    0.440325 v _182048_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[15][124] (net)
+               0.007390    0.000080    0.440406 v _158219_/A1 (AND2_X1)
+   1.220200    0.005375    0.026640    0.467046 v _158219_/ZN (AND2_X1)
+                                                  _007775_ (net)
+               0.005375    0.000021    0.467067 v _182048_/D (DFF_X1)
+                                       0.467067   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354257    0.354257   clock network delay (propagated)
+                           0.100000    0.454257   clock uncertainty
+                           0.000000    0.454257   clock reconvergence pessimism
+                                       0.454257 ^ _182048_/CK (DFF_X1)
+                           0.004215    0.458472   library hold time
+                                       0.458472   data required time
+---------------------------------------------------------------------------------------
+                                       0.458472   data required time
+                                      -0.467067   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008595   slack (MET)
+
+
+Startpoint: _181406_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181406_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348968    0.348968   clock network delay (propagated)
+               0.011583    0.000000    0.348968 ^ _181406_/CK (DFF_X1)
+   2.766523    0.007367    0.085692    0.434660 v _181406_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[20][122] (net)
+               0.007367    0.000046    0.434705 v _158870_/A1 (AND2_X1)
+   1.338930    0.005496    0.026901    0.461606 v _158870_/ZN (AND2_X1)
+                                                  _008412_ (net)
+               0.005496    0.000030    0.461636 v _181406_/D (DFF_X1)
+                                       0.461636   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348968    0.348968   clock network delay (propagated)
+                           0.100000    0.448968   clock uncertainty
+                           0.000000    0.448968   clock reconvergence pessimism
+                                       0.448968 ^ _181406_/CK (DFF_X1)
+                           0.004049    0.453016   library hold time
+                                       0.453016   data required time
+---------------------------------------------------------------------------------------
+                                       0.453016   data required time
+                                      -0.461636   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008619   slack (MET)
+
+
+Startpoint: _181024_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181024_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348903    0.348903   clock network delay (propagated)
+               0.011583    0.000000    0.348903 ^ _181024_/CK (DFF_X1)
+   2.807482    0.007404    0.085740    0.434643 v _181024_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[23][124] (net)
+               0.007404    0.000095    0.434737 v _159253_/A1 (AND2_X1)
+   1.290359    0.005447    0.026808    0.461545 v _159253_/ZN (AND2_X1)
+                                                  _008791_ (net)
+               0.005447    0.000026    0.461571 v _181024_/D (DFF_X1)
+                                       0.461571   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348903    0.348903   clock network delay (propagated)
+                           0.100000    0.448903   clock uncertainty
+                           0.000000    0.448903   clock reconvergence pessimism
+                                       0.448903 ^ _181024_/CK (DFF_X1)
+                           0.004047    0.452950   library hold time
+                                       0.452950   data required time
+---------------------------------------------------------------------------------------
+                                       0.452950   data required time
+                                      -0.461571   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008622   slack (MET)
+
+
+Startpoint: _180892_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180892_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348683    0.348683   clock network delay (propagated)
+               0.011442    0.000000    0.348683 ^ _180892_/CK (DFF_X1)
+   2.715398    0.007324    0.085541    0.434224 v _180892_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[24][120] (net)
+               0.007324    0.000056    0.434280 v _159388_/A1 (AND2_X1)
+   1.397621    0.005556    0.027013    0.461293 v _159388_/ZN (AND2_X1)
+                                                  _008922_ (net)
+               0.005556    0.000034    0.461327 v _180892_/D (DFF_X1)
+                                       0.461327   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348683    0.348683   clock network delay (propagated)
+                           0.100000    0.448683   clock uncertainty
+                           0.000000    0.448683   clock reconvergence pessimism
+                                       0.448683 ^ _180892_/CK (DFF_X1)
+                           0.004022    0.452705   library hold time
+                                       0.452705   data required time
+---------------------------------------------------------------------------------------
+                                       0.452705   data required time
+                                      -0.461327   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008622   slack (MET)
+
+
+Startpoint: _180508_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180508_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348657    0.348657   clock network delay (propagated)
+               0.011442    0.000000    0.348657 ^ _180508_/CK (DFF_X1)
+   2.966881    0.007545    0.085953    0.434610 v _180508_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[27][120] (net)
+               0.007546    0.000082    0.434692 v _159775_/A1 (AND2_X1)
+   1.164207    0.005319    0.026591    0.461283 v _159775_/ZN (AND2_X1)
+                                                  _009303_ (net)
+               0.005319    0.000017    0.461300 v _180508_/D (DFF_X1)
+                                       0.461300   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348657    0.348657   clock network delay (propagated)
+                           0.100000    0.448657   clock uncertainty
+                           0.000000    0.448657   clock reconvergence pessimism
+                                       0.448657 ^ _180508_/CK (DFF_X1)
+                           0.004012    0.452669   library hold time
+                                       0.452669   data required time
+---------------------------------------------------------------------------------------
+                                       0.452669   data required time
+                                      -0.461300   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008631   slack (MET)
+
+
+Startpoint: _179997_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _179997_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358340    0.358340   clock network delay (propagated)
+               0.011708    0.000000    0.358340 ^ _179997_/CK (DFF_X1)
+   2.835816    0.007429    0.085844    0.444184 v _179997_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[31][121] (net)
+               0.007429    0.000083    0.444266 v _160289_/A1 (AND2_X1)
+   1.260676    0.005417    0.026753    0.471019 v _160289_/ZN (AND2_X1)
+                                                  _009810_ (net)
+               0.005417    0.000024    0.471043 v _179997_/D (DFF_X1)
+                                       0.471043   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358340    0.358340   clock network delay (propagated)
+                           0.100000    0.458340   clock uncertainty
+                           0.000000    0.458340   clock reconvergence pessimism
+                                       0.458340 ^ _179997_/CK (DFF_X1)
+                           0.004071    0.462411   library hold time
+                                       0.462411   data required time
+---------------------------------------------------------------------------------------
+                                       0.462411   data required time
+                                      -0.471043   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008632   slack (MET)
+
+
+Startpoint: _183070_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183070_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353370    0.353370   clock network delay (propagated)
+               0.011650    0.000000    0.353370 ^ _183070_/CK (DFF_X1)
+   2.718434    0.007326    0.085636    0.439006 v _183070_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[7][122] (net)
+               0.007326    0.000047    0.439053 v _157189_/A1 (AND2_X1)
+   1.383455    0.005542    0.026982    0.466035 v _157189_/ZN (AND2_X1)
+                                                  _006761_ (net)
+               0.005542    0.000033    0.466067 v _183070_/D (DFF_X1)
+                                       0.466067   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353370    0.353370   clock network delay (propagated)
+                           0.100000    0.453370   clock uncertainty
+                           0.000000    0.453370   clock reconvergence pessimism
+                                       0.453370 ^ _183070_/CK (DFF_X1)
+                           0.004064    0.457434   library hold time
+                                       0.457434   data required time
+---------------------------------------------------------------------------------------
+                                       0.457434   data required time
+                                      -0.466067   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008633   slack (MET)
+
+
+Startpoint: _181663_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181663_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349728    0.349728   clock network delay (propagated)
+               0.012353    0.000000    0.349728 ^ _181663_/CK (DFF_X1)
+   2.655359    0.007272    0.085824    0.435552 v _181663_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[18][123] (net)
+               0.007272    0.000028    0.435580 v _158611_/A1 (AND2_X1)
+   1.396045    0.005555    0.026981    0.462560 v _158611_/ZN (AND2_X1)
+                                                  _008157_ (net)
+               0.005555    0.000043    0.462603 v _181663_/D (DFF_X1)
+                                       0.462603   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349728    0.349728   clock network delay (propagated)
+                           0.100000    0.449728   clock uncertainty
+                           0.000000    0.449728   clock reconvergence pessimism
+                                       0.449728 ^ _181663_/CK (DFF_X1)
+                           0.004210    0.453938   library hold time
+                                       0.453938   data required time
+---------------------------------------------------------------------------------------
+                                       0.453938   data required time
+                                      -0.462603   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008665   slack (MET)
+
+
+Startpoint: _180642_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180642_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353188    0.353188   clock network delay (propagated)
+               0.011580    0.000000    0.353188 ^ _180642_/CK (DFF_X1)
+   2.720010    0.007328    0.085606    0.438794 v _180642_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[26][126] (net)
+               0.007328    0.000044    0.438837 v _159640_/A1 (AND2_X1)
+   1.408863    0.005568    0.027037    0.465875 v _159640_/ZN (AND2_X1)
+                                                  _009170_ (net)
+               0.005568    0.000045    0.465920 v _180642_/D (DFF_X1)
+                                       0.465920   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353188    0.353188   clock network delay (propagated)
+                           0.100000    0.453188   clock uncertainty
+                           0.000000    0.453188   clock reconvergence pessimism
+                                       0.453188 ^ _180642_/CK (DFF_X1)
+                           0.004051    0.457239   library hold time
+                                       0.457239   data required time
+---------------------------------------------------------------------------------------
+                                       0.457239   data required time
+                                      -0.465920   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008681   slack (MET)
+
+
+Startpoint: _179998_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _179998_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353803    0.353803   clock network delay (propagated)
+               0.011916    0.000000    0.353803 ^ _179998_/CK (DFF_X1)
+   2.794665    0.007392    0.085873    0.439676 v _179998_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[31][122] (net)
+               0.007392    0.000067    0.439742 v _160288_/A1 (AND2_X1)
+   1.303176    0.005460    0.026831    0.466573 v _160288_/ZN (AND2_X1)
+                                                  _009809_ (net)
+               0.005460    0.000027    0.466600 v _179998_/D (DFF_X1)
+                                       0.466600   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353803    0.353803   clock network delay (propagated)
+                           0.100000    0.453803   clock uncertainty
+                           0.000000    0.453803   clock reconvergence pessimism
+                                       0.453803 ^ _179998_/CK (DFF_X1)
+                           0.004116    0.457919   library hold time
+                                       0.457919   data required time
+---------------------------------------------------------------------------------------
+                                       0.457919   data required time
+                                      -0.466600   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008682   slack (MET)
+
+
+Startpoint: _180899_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180899_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358210    0.358210   clock network delay (propagated)
+               0.011807    0.000000    0.358210 ^ _180899_/CK (DFF_X1)
+   2.945102    0.007526    0.086072    0.444282 v _180899_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[24][127] (net)
+               0.007526    0.000091    0.444373 v _167432_/A1 (AND2_X1)
+   1.181747    0.005336    0.026621    0.470994 v _167432_/ZN (AND2_X1)
+                                                  _014295_ (net)
+               0.005336    0.000018    0.471012 v _180899_/D (DFF_X1)
+                                       0.471012   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358210    0.358210   clock network delay (propagated)
+                           0.100000    0.458210   clock uncertainty
+                           0.000000    0.458210   clock reconvergence pessimism
+                                       0.458210 ^ _180899_/CK (DFF_X1)
+                           0.004088    0.462299   library hold time
+                                       0.462299   data required time
+---------------------------------------------------------------------------------------
+                                       0.462299   data required time
+                                      -0.471012   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008714   slack (MET)
+
+
+Startpoint: _182943_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182943_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353627    0.353627   clock network delay (propagated)
+               0.011870    0.000000    0.353627 ^ _182943_/CK (DFF_X1)
+   2.832780    0.007426    0.085905    0.439532 v _182943_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[8][123] (net)
+               0.007427    0.000096    0.439628 v _157319_/A1 (AND2_X1)
+   1.280240    0.005437    0.026796    0.466424 v _157319_/ZN (AND2_X1)
+                                                  _006887_ (net)
+               0.005437    0.000025    0.466449 v _182943_/D (DFF_X1)
+                                       0.466449   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353627    0.353627   clock network delay (propagated)
+                           0.100000    0.453627   clock uncertainty
+                           0.000000    0.453627   clock reconvergence pessimism
+                                       0.453627 ^ _182943_/CK (DFF_X1)
+                           0.004105    0.457733   library hold time
+                                       0.457733   data required time
+---------------------------------------------------------------------------------------
+                                       0.457733   data required time
+                                      -0.466449   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008717   slack (MET)
+
+
+Startpoint: _181917_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181917_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349718    0.349718   clock network delay (propagated)
+               0.012090    0.000000    0.349718 ^ _181917_/CK (DFF_X1)
+   2.831094    0.007424    0.086009    0.435727 v _181917_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[16][121] (net)
+               0.007424    0.000069    0.435796 v _158355_/A1 (AND2_X1)
+   1.267422    0.005424    0.026766    0.462561 v _158355_/ZN (AND2_X1)
+                                                  _007905_ (net)
+               0.005424    0.000024    0.462586 v _181917_/D (DFF_X1)
+                                       0.462586   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349718    0.349718   clock network delay (propagated)
+                           0.100000    0.449718   clock uncertainty
+                           0.000000    0.449718   clock reconvergence pessimism
+                                       0.449718 ^ _181917_/CK (DFF_X1)
+                           0.004150    0.453868   library hold time
+                                       0.453868   data required time
+---------------------------------------------------------------------------------------
+                                       0.453868   data required time
+                                      -0.462586   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008717   slack (MET)
+
+
+Startpoint: _183072_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183072_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353744    0.353744   clock network delay (propagated)
+               0.011882    0.000000    0.353744 ^ _183072_/CK (DFF_X1)
+   2.764982    0.007366    0.085815    0.439558 v _183072_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[7][124] (net)
+               0.007366    0.000054    0.439613 v _157187_/A1 (AND2_X1)
+   1.353097    0.005511    0.026932    0.466545 v _157187_/ZN (AND2_X1)
+                                                  _006759_ (net)
+               0.005511    0.000031    0.466576 v _183072_/D (DFF_X1)
+                                       0.466576   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353744    0.353744   clock network delay (propagated)
+                           0.100000    0.453744   clock uncertainty
+                           0.000000    0.453744   clock reconvergence pessimism
+                                       0.453744 ^ _183072_/CK (DFF_X1)
+                           0.004111    0.457855   library hold time
+                                       0.457855   data required time
+---------------------------------------------------------------------------------------
+                                       0.457855   data required time
+                                      -0.466576   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008721   slack (MET)
+
+
+Startpoint: _182945_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182945_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355081    0.355081   clock network delay (propagated)
+               0.012378    0.000000    0.355081 ^ _182945_/CK (DFF_X1)
+   2.732601    0.007338    0.085969    0.441050 v _182945_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[8][125] (net)
+               0.007338    0.000051    0.441101 v _157317_/A1 (AND2_X1)
+   1.338931    0.005496    0.026886    0.467987 v _157317_/ZN (AND2_X1)
+                                                  _006885_ (net)
+               0.005496    0.000030    0.468017 v _182945_/D (DFF_X1)
+                                       0.468017   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355081    0.355081   clock network delay (propagated)
+                           0.100000    0.455081   clock uncertainty
+                           0.000000    0.455081   clock reconvergence pessimism
+                                       0.455081 ^ _182945_/CK (DFF_X1)
+                           0.004213    0.459294   library hold time
+                                       0.459294   data required time
+---------------------------------------------------------------------------------------
+                                       0.459294   data required time
+                                      -0.468017   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008723   slack (MET)
+
+
+Startpoint: _180127_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180127_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.356139    0.356139   clock network delay (propagated)
+               0.011735    0.000000    0.356139 ^ _180127_/CK (DFF_X1)
+   2.983775    0.007560    0.086107    0.442246 v _180127_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[30][123] (net)
+               0.007561    0.000081    0.442327 v _160158_/A1 (AND2_X1)
+   1.164207    0.005319    0.026598    0.468925 v _160158_/ZN (AND2_X1)
+                                                  _009681_ (net)
+               0.005319    0.000017    0.468943 v _180127_/D (DFF_X1)
+                                       0.468943   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.356139    0.356139   clock network delay (propagated)
+                           0.100000    0.456139   clock uncertainty
+                           0.000000    0.456139   clock reconvergence pessimism
+                                       0.456139 ^ _180127_/CK (DFF_X1)
+                           0.004073    0.460212   library hold time
+                                       0.460212   data required time
+---------------------------------------------------------------------------------------
+                                       0.460212   data required time
+                                      -0.468943   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008731   slack (MET)
+
+
+Startpoint: _181021_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181021_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348530    0.348530   clock network delay (propagated)
+               0.011424    0.000000    0.348530 ^ _181021_/CK (DFF_X1)
+   2.861562    0.007452    0.085771    0.434301 v _181021_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[23][121] (net)
+               0.007452    0.000071    0.434372 v _159256_/A1 (AND2_X1)
+   1.313296    0.005470    0.026885    0.461257 v _159256_/ZN (AND2_X1)
+                                                  _008794_ (net)
+               0.005470    0.000028    0.461284 v _181021_/D (DFF_X1)
+                                       0.461284   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348530    0.348530   clock network delay (propagated)
+                           0.100000    0.448530   clock uncertainty
+                           0.000000    0.448530   clock reconvergence pessimism
+                                       0.448530 ^ _181021_/CK (DFF_X1)
+                           0.004014    0.452545   library hold time
+                                       0.452545   data required time
+---------------------------------------------------------------------------------------
+                                       0.452545   data required time
+                                      -0.461284   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008740   slack (MET)
+
+
+Startpoint: _181150_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181150_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348138    0.348138   clock network delay (propagated)
+               0.011546    0.000000    0.348138 ^ _181150_/CK (DFF_X1)
+   2.901323    0.007487    0.085899    0.434037 v _181150_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[22][122] (net)
+               0.007487    0.000064    0.434100 v _159127_/A1 (AND2_X1)
+   1.267422    0.005424    0.026798    0.460898 v _159127_/ZN (AND2_X1)
+                                                  _008666_ (net)
+               0.005424    0.000024    0.460922 v _181150_/D (DFF_X1)
+                                       0.460922   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348138    0.348138   clock network delay (propagated)
+                           0.100000    0.448138   clock uncertainty
+                           0.000000    0.448138   clock reconvergence pessimism
+                                       0.448138 ^ _181150_/CK (DFF_X1)
+                           0.004038    0.452175   library hold time
+                                       0.452175   data required time
+---------------------------------------------------------------------------------------
+                                       0.452175   data required time
+                                      -0.460922   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008747   slack (MET)
+
+
+Startpoint: _180257_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180257_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348682    0.348682   clock network delay (propagated)
+               0.011424    0.000000    0.348682 ^ _180257_/CK (DFF_X1)
+   2.980252    0.007557    0.085963    0.434646 v _180257_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[29][125] (net)
+               0.007558    0.000104    0.434750 v _160028_/A1 (AND2_X1)
+   1.197263    0.005352    0.026673    0.461422 v _160028_/ZN (AND2_X1)
+                                                  _009552_ (net)
+               0.005352    0.000019    0.461441 v _180257_/D (DFF_X1)
+                                       0.461441   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348682    0.348682   clock network delay (propagated)
+                           0.100000    0.448682   clock uncertainty
+                           0.000000    0.448682   clock reconvergence pessimism
+                                       0.448682 ^ _180257_/CK (DFF_X1)
+                           0.004010    0.452692   library hold time
+                                       0.452692   data required time
+---------------------------------------------------------------------------------------
+                                       0.452692   data required time
+                                      -0.461441   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008750   slack (MET)
+
+
+Startpoint: _182557_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182557_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352595    0.352595   clock network delay (propagated)
+               0.011632    0.000000    0.352595 ^ _182557_/CK (DFF_X1)
+   3.012754    0.007586    0.086128    0.438723 v _182557_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[11][121] (net)
+               0.007586    0.000051    0.438774 v _157708_/A1 (AND2_X1)
+   1.164208    0.005319    0.026611    0.465385 v _157708_/ZN (AND2_X1)
+                                                  _007270_ (net)
+               0.005319    0.000017    0.465403 v _182557_/D (DFF_X1)
+                                       0.465403   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352595    0.352595   clock network delay (propagated)
+                           0.100000    0.452595   clock uncertainty
+                           0.000000    0.452595   clock reconvergence pessimism
+                                       0.452595 ^ _182557_/CK (DFF_X1)
+                           0.004051    0.456646   library hold time
+                                       0.456646   data required time
+---------------------------------------------------------------------------------------
+                                       0.456646   data required time
+                                      -0.465403   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008756   slack (MET)
+
+
+Startpoint: _182049_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182049_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355094    0.355094   clock network delay (propagated)
+               0.012378    0.000000    0.355094 ^ _182049_/CK (DFF_X1)
+   2.697184    0.007308    0.085906    0.441000 v _182049_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[15][125] (net)
+               0.007308    0.000031    0.441031 v _158218_/A1 (AND2_X1)
+   1.396045    0.005555    0.026999    0.468030 v _158218_/ZN (AND2_X1)
+                                                  _007774_ (net)
+               0.005555    0.000043    0.468073 v _182049_/D (DFF_X1)
+                                       0.468073   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355094    0.355094   clock network delay (propagated)
+                           0.100000    0.455094   clock uncertainty
+                           0.000000    0.455094   clock reconvergence pessimism
+                                       0.455094 ^ _182049_/CK (DFF_X1)
+                           0.004215    0.459310   library hold time
+                                       0.459310   data required time
+---------------------------------------------------------------------------------------
+                                       0.459310   data required time
+                                      -0.468073   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008763   slack (MET)
+
+
+Startpoint: _180381_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180381_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357808    0.357808   clock network delay (propagated)
+               0.011405    0.000000    0.357808 ^ _180381_/CK (DFF_X1)
+   2.838706    0.007431    0.085740    0.443548 v _180381_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[28][121] (net)
+               0.007431    0.000049    0.443597 v _159903_/A1 (AND2_X1)
+   1.353097    0.005511    0.026965    0.470562 v _159903_/ZN (AND2_X1)
+                                                  _009429_ (net)
+               0.005511    0.000030    0.470593 v _180381_/D (DFF_X1)
+                                       0.470593   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357808    0.357808   clock network delay (propagated)
+                           0.100000    0.457808   clock uncertainty
+                           0.000000    0.457808   clock reconvergence pessimism
+                                       0.457808 ^ _180381_/CK (DFF_X1)
+                           0.004012    0.461820   library hold time
+                                       0.461820   data required time
+---------------------------------------------------------------------------------------
+                                       0.461820   data required time
+                                      -0.470593   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008772   slack (MET)
+
+
+Startpoint: _183069_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183069_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353132    0.353132   clock network delay (propagated)
+               0.011633    0.000000    0.353132 ^ _183069_/CK (DFF_X1)
+   2.966125    0.007545    0.086032    0.439164 v _183069_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[7][121] (net)
+               0.007545    0.000081    0.439245 v _157190_/A1 (AND2_X1)
+   1.209406    0.005365    0.026694    0.465939 v _157190_/ZN (AND2_X1)
+                                                  _006762_ (net)
+               0.005365    0.000020    0.465959 v _183069_/D (DFF_X1)
+                                       0.465959   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353132    0.353132   clock network delay (propagated)
+                           0.100000    0.453132   clock uncertainty
+                           0.000000    0.453132   clock reconvergence pessimism
+                                       0.453132 ^ _183069_/CK (DFF_X1)
+                           0.004053    0.457186   library hold time
+                                       0.457186   data required time
+---------------------------------------------------------------------------------------
+                                       0.457186   data required time
+                                      -0.465959   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008774   slack (MET)
+
+
+Startpoint: _180258_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180258_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357838    0.357838   clock network delay (propagated)
+               0.011405    0.000000    0.357838 ^ _180258_/CK (DFF_X1)
+   2.980927    0.007558    0.085973    0.443811 v _180258_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[29][126] (net)
+               0.007558    0.000062    0.443874 v _160027_/A1 (AND2_X1)
+   1.220200    0.005376    0.026725    0.470599 v _160027_/ZN (AND2_X1)
+                                                  _009551_ (net)
+               0.005376    0.000021    0.470620 v _180258_/D (DFF_X1)
+                                       0.470620   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357838    0.357838   clock network delay (propagated)
+                           0.100000    0.457838   clock uncertainty
+                           0.000000    0.457838   clock reconvergence pessimism
+                                       0.457838 ^ _180258_/CK (DFF_X1)
+                           0.004007    0.461845   library hold time
+                                       0.461845   data required time
+---------------------------------------------------------------------------------------
+                                       0.461845   data required time
+                                      -0.470620   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008775   slack (MET)
+
+
+Startpoint: _180895_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180895_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358305    0.358305   clock network delay (propagated)
+               0.011704    0.000000    0.358305 ^ _180895_/CK (DFF_X1)
+   2.965340    0.007544    0.086062    0.444367 v _180895_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[24][123] (net)
+               0.007544    0.000091    0.444458 v _159385_/A1 (AND2_X1)
+   1.207382    0.005363    0.026689    0.471147 v _159385_/ZN (AND2_X1)
+                                                  _008919_ (net)
+               0.005363    0.000020    0.471167 v _180895_/D (DFF_X1)
+                                       0.471167   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358305    0.358305   clock network delay (propagated)
+                           0.100000    0.458305   clock uncertainty
+                           0.000000    0.458305   clock reconvergence pessimism
+                                       0.458305 ^ _180895_/CK (DFF_X1)
+                           0.004068    0.462373   library hold time
+                                       0.462373   data required time
+---------------------------------------------------------------------------------------
+                                       0.462373   data required time
+                                      -0.471167   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008793   slack (MET)
+
+
+Startpoint: _180002_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180002_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353200    0.353200   clock network delay (propagated)
+               0.011581    0.000000    0.353200 ^ _180002_/CK (DFF_X1)
+   2.771054    0.007372    0.085694    0.438894 v _180002_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[31][126] (net)
+               0.007372    0.000054    0.438948 v _160284_/A1 (AND2_X1)
+   1.409090    0.005568    0.027063    0.466011 v _160284_/ZN (AND2_X1)
+                                                  _009805_ (net)
+               0.005568    0.000035    0.466046 v _180002_/D (DFF_X1)
+                                       0.466046   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353200    0.353200   clock network delay (propagated)
+                           0.100000    0.453200   clock uncertainty
+                           0.000000    0.453200   clock reconvergence pessimism
+                                       0.453200 ^ _180002_/CK (DFF_X1)
+                           0.004051    0.457251   library hold time
+                                       0.457251   data required time
+---------------------------------------------------------------------------------------
+                                       0.457251   data required time
+                                      -0.466046   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008795   slack (MET)
+
+
+Startpoint: _183327_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183327_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352749    0.352749   clock network delay (propagated)
+               0.011633    0.000000    0.352749 ^ _183327_/CK (DFF_X1)
+   2.788400    0.007386    0.085747    0.438496 v _183327_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[5][123] (net)
+               0.007386    0.000034    0.438530 v _156930_/A1 (AND2_X1)
+   1.396045    0.005555    0.027038    0.465568 v _156930_/ZN (AND2_X1)
+                                                  _006506_ (net)
+               0.005555    0.000043    0.465611 v _183327_/D (DFF_X1)
+                                       0.465611   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352749    0.352749   clock network delay (propagated)
+                           0.100000    0.452749   clock uncertainty
+                           0.000000    0.452749   clock reconvergence pessimism
+                                       0.452749 ^ _183327_/CK (DFF_X1)
+                           0.004061    0.456810   library hold time
+                                       0.456810   data required time
+---------------------------------------------------------------------------------------
+                                       0.456810   data required time
+                                      -0.465611   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008801   slack (MET)
+
+
+Startpoint: _183197_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183197_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353129    0.353129   clock network delay (propagated)
+               0.011633    0.000000    0.353129 ^ _183197_/CK (DFF_X1)
+   2.855571    0.007446    0.085859    0.438988 v _183197_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[6][121] (net)
+               0.007446    0.000022    0.439009 v _157061_/A1 (AND2_X1)
+   1.348823    0.005507    0.026960    0.465970 v _157061_/ZN (AND2_X1)
+                                                  _006635_ (net)
+               0.005507    0.000039    0.466009 v _183197_/D (DFF_X1)
+                                       0.466009   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353129    0.353129   clock network delay (propagated)
+                           0.100000    0.453129   clock uncertainty
+                           0.000000    0.453129   clock reconvergence pessimism
+                                       0.453129 ^ _183197_/CK (DFF_X1)
+                           0.004059    0.457188   library hold time
+                                       0.457188   data required time
+---------------------------------------------------------------------------------------
+                                       0.457188   data required time
+                                      -0.466009   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008821   slack (MET)
+
+
+Startpoint: _182307_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182307_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352855    0.352855   clock network delay (propagated)
+               0.011413    0.000000    0.352855 ^ _182307_/CK (DFF_X1)
+   2.937681    0.007519    0.085908    0.438763 v _182307_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[13][127] (net)
+               0.007519    0.000056    0.438819 v _167443_/A1 (AND2_X1)
+   1.280240    0.005437    0.026843    0.465662 v _167443_/ZN (AND2_X1)
+                                                  _014306_ (net)
+               0.005437    0.000025    0.465687 v _182307_/D (DFF_X1)
+                                       0.465687   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352855    0.352855   clock network delay (propagated)
+                           0.100000    0.452855   clock uncertainty
+                           0.000000    0.452855   clock reconvergence pessimism
+                                       0.452855 ^ _182307_/CK (DFF_X1)
+                           0.004011    0.456866   library hold time
+                                       0.456866   data required time
+---------------------------------------------------------------------------------------
+                                       0.456866   data required time
+                                      -0.465687   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008821   slack (MET)
+
+
+Startpoint: _181921_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181921_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348952    0.348952   clock network delay (propagated)
+               0.011583    0.000000    0.348952 ^ _181921_/CK (DFF_X1)
+   2.981641    0.007558    0.086046    0.434998 v _181921_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[16][125] (net)
+               0.007558    0.000058    0.435056 v _158351_/A1 (AND2_X1)
+   1.228295    0.005384    0.026744    0.461800 v _158351_/ZN (AND2_X1)
+                                                  _007901_ (net)
+               0.005384    0.000021    0.461822 v _181921_/D (DFF_X1)
+                                       0.461822   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348952    0.348952   clock network delay (propagated)
+                           0.100000    0.448952   clock uncertainty
+                           0.000000    0.448952   clock reconvergence pessimism
+                                       0.448952 ^ _181921_/CK (DFF_X1)
+                           0.004044    0.452996   library hold time
+                                       0.452996   data required time
+---------------------------------------------------------------------------------------
+                                       0.452996   data required time
+                                      -0.461822   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008826   slack (MET)
+
+
+Startpoint: _182044_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182044_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354735    0.354735   clock network delay (propagated)
+               0.012437    0.000000    0.354735 ^ _182044_/CK (DFF_X1)
+   2.900915    0.007486    0.086278    0.441014 v _182044_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[15][120] (net)
+               0.007486    0.000058    0.441072 v _158223_/A1 (AND2_X1)
+   1.220200    0.005376    0.026689    0.467761 v _158223_/ZN (AND2_X1)
+                                                  _007779_ (net)
+               0.005376    0.000021    0.467781 v _182044_/D (DFF_X1)
+                                       0.467781   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354735    0.354735   clock network delay (propagated)
+                           0.100000    0.454735   clock uncertainty
+                           0.000000    0.454735   clock reconvergence pessimism
+                                       0.454735 ^ _182044_/CK (DFF_X1)
+                           0.004220    0.458956   library hold time
+                                       0.458956   data required time
+---------------------------------------------------------------------------------------
+                                       0.458956   data required time
+                                      -0.467781   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008826   slack (MET)
+
+
+Startpoint: _180638_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180638_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353829    0.353829   clock network delay (propagated)
+               0.011916    0.000000    0.353829 ^ _180638_/CK (DFF_X1)
+   2.900688    0.007486    0.086045    0.439874 v _180638_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[26][122] (net)
+               0.007487    0.000076    0.439950 v _159644_/A1 (AND2_X1)
+   1.266748    0.005423    0.026796    0.466745 v _159644_/ZN (AND2_X1)
+                                                  _009174_ (net)
+               0.005423    0.000024    0.466770 v _180638_/D (DFF_X1)
+                                       0.466770   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353829    0.353829   clock network delay (propagated)
+                           0.100000    0.453829   clock uncertainty
+                           0.000000    0.453829   clock reconvergence pessimism
+                                       0.453829 ^ _180638_/CK (DFF_X1)
+                           0.004114    0.457943   library hold time
+                                       0.457943   data required time
+---------------------------------------------------------------------------------------
+                                       0.457943   data required time
+                                      -0.466770   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008826   slack (MET)
+
+
+Startpoint: _181920_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181920_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349368    0.349368   clock network delay (propagated)
+               0.011784    0.000000    0.349368 ^ _181920_/CK (DFF_X1)
+   2.664692    0.007280    0.085596    0.434963 v _181920_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[16][124] (net)
+               0.007280    0.000054    0.435017 v _158352_/A1 (AND2_X1)
+   1.499935    0.005662    0.027221    0.462238 v _158352_/ZN (AND2_X1)
+                                                  _007902_ (net)
+               0.005662    0.000053    0.462291 v _181920_/D (DFF_X1)
+                                       0.462291   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349368    0.349368   clock network delay (propagated)
+                           0.100000    0.449368   clock uncertainty
+                           0.000000    0.449368   clock reconvergence pessimism
+                                       0.449368 ^ _181920_/CK (DFF_X1)
+                           0.004097    0.453465   library hold time
+                                       0.453465   data required time
+---------------------------------------------------------------------------------------
+                                       0.453465   data required time
+                                      -0.462291   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008827   slack (MET)
+
+
+Startpoint: _181666_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181666_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349704    0.349704   clock network delay (propagated)
+               0.012353    0.000000    0.349704 ^ _181666_/CK (DFF_X1)
+   2.594533    0.007220    0.085724    0.435428 v _181666_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[18][126] (net)
+               0.007220    0.000030    0.435458 v _158608_/A1 (AND2_X1)
+   1.522645    0.005685    0.027243    0.462701 v _158608_/ZN (AND2_X1)
+                                                  _008154_ (net)
+               0.005685    0.000051    0.462753 v _181666_/D (DFF_X1)
+                                       0.462753   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349704    0.349704   clock network delay (propagated)
+                           0.100000    0.449704   clock uncertainty
+                           0.000000    0.449704   clock reconvergence pessimism
+                                       0.449704 ^ _181666_/CK (DFF_X1)
+                           0.004216    0.453920   library hold time
+                                       0.453920   data required time
+---------------------------------------------------------------------------------------
+                                       0.453920   data required time
+                                      -0.462753   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008833   slack (MET)
+
+
+Startpoint: _182430_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182430_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352826    0.352826   clock network delay (propagated)
+               0.011413    0.000000    0.352826 ^ _182430_/CK (DFF_X1)
+   2.890342    0.007477    0.085821    0.438647 v _182430_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[12][122] (net)
+               0.007477    0.000071    0.438718 v _157836_/A1 (AND2_X1)
+   1.327462    0.005485    0.026930    0.465648 v _157836_/ZN (AND2_X1)
+                                                  _007396_ (net)
+               0.005485    0.000029    0.465677 v _182430_/D (DFF_X1)
+                                       0.465677   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352826    0.352826   clock network delay (propagated)
+                           0.100000    0.452826   clock uncertainty
+                           0.000000    0.452826   clock reconvergence pessimism
+                                       0.452826 ^ _182430_/CK (DFF_X1)
+                           0.004013    0.456839   library hold time
+                                       0.456839   data required time
+---------------------------------------------------------------------------------------
+                                       0.456839   data required time
+                                      -0.465677   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008838   slack (MET)
+
+
+Startpoint: _180893_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180893_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357812    0.357812   clock network delay (propagated)
+               0.011405    0.000000    0.357812 ^ _180893_/CK (DFF_X1)
+   2.974221    0.007552    0.085955    0.443767 v _180893_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[24][121] (net)
+               0.007552    0.000071    0.443838 v _159387_/A1 (AND2_X1)
+   1.253255    0.005409    0.026798    0.470636 v _159387_/ZN (AND2_X1)
+                                                  _008921_ (net)
+               0.005409    0.000023    0.470659 v _180893_/D (DFF_X1)
+                                       0.470659   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357812    0.357812   clock network delay (propagated)
+                           0.100000    0.457812   clock uncertainty
+                           0.000000    0.457812   clock reconvergence pessimism
+                                       0.457812 ^ _180893_/CK (DFF_X1)
+                           0.004008    0.461820   library hold time
+                                       0.461820   data required time
+---------------------------------------------------------------------------------------
+                                       0.461820   data required time
+                                      -0.470659   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008839   slack (MET)
+
+
+Startpoint: _183714_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183714_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355729    0.355729   clock network delay (propagated)
+               0.011959    0.000000    0.355729 ^ _183714_/CK (DFF_X1)
+   2.982205    0.007559    0.086198    0.441927 v _183714_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[2][126] (net)
+               0.007559    0.000093    0.442020 v _156534_/A1 (AND2_X1)
+   1.194565    0.005350    0.026667    0.468688 v _156534_/ZN (AND2_X1)
+                                                  _006122_ (net)
+               0.005350    0.000019    0.468707 v _183714_/D (DFF_X1)
+                                       0.468707   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355729    0.355729   clock network delay (propagated)
+                           0.100000    0.455729   clock uncertainty
+                           0.000000    0.455729   clock reconvergence pessimism
+                                       0.455729 ^ _183714_/CK (DFF_X1)
+                           0.004120    0.459849   library hold time
+                                       0.459849   data required time
+---------------------------------------------------------------------------------------
+                                       0.459849   data required time
+                                      -0.468707   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008858   slack (MET)
+
+
+Startpoint: _180387_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180387_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358240    0.358240   clock network delay (propagated)
+               0.011704    0.000000    0.358240 ^ _180387_/CK (DFF_X1)
+   2.955413    0.007535    0.086064    0.444304 v _180387_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[28][127] (net)
+               0.007535    0.000060    0.444363 v _167428_/A1 (AND2_X1)
+   1.251232    0.005407    0.026785    0.471148 v _167428_/ZN (AND2_X1)
+                                                  _014291_ (net)
+               0.005407    0.000023    0.471171 v _180387_/D (DFF_X1)
+                                       0.471171   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358240    0.358240   clock network delay (propagated)
+                           0.100000    0.458240   clock uncertainty
+                           0.000000    0.458240   clock reconvergence pessimism
+                                       0.458240 ^ _180387_/CK (DFF_X1)
+                           0.004070    0.462310   library hold time
+                                       0.462310   data required time
+---------------------------------------------------------------------------------------
+                                       0.462310   data required time
+                                      -0.471171   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008861   slack (MET)
+
+
+Startpoint: _181025_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181025_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355163    0.355163   clock network delay (propagated)
+               0.012373    0.000000    0.355163 ^ _181025_/CK (DFF_X1)
+   2.787919    0.007386    0.086056    0.441220 v _181025_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[23][125] (net)
+               0.007386    0.000067    0.441286 v _159252_/A1 (AND2_X1)
+   1.344327    0.005502    0.026922    0.468209 v _159252_/ZN (AND2_X1)
+                                                  _008790_ (net)
+               0.005502    0.000030    0.468239 v _181025_/D (DFF_X1)
+                                       0.468239   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.355163    0.355163   clock network delay (propagated)
+                           0.100000    0.455163   clock uncertainty
+                           0.000000    0.455163   clock reconvergence pessimism
+                                       0.455163 ^ _181025_/CK (DFF_X1)
+                           0.004212    0.459376   library hold time
+                                       0.459376   data required time
+---------------------------------------------------------------------------------------
+                                       0.459376   data required time
+                                      -0.468239   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008863   slack (MET)
+
+
+Startpoint: _183842_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183842_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354569    0.354569   clock network delay (propagated)
+               0.012427    0.000000    0.354569 ^ _183842_/CK (DFF_X1)
+   2.764645    0.007366    0.086039    0.440608 v _183842_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[1][126] (net)
+               0.007366    0.000040    0.440648 v _156403_/A1 (AND2_X1)
+   1.370410    0.005529    0.026969    0.467617 v _156403_/ZN (AND2_X1)
+                                                  _005995_ (net)
+               0.005529    0.000042    0.467659 v _183842_/D (DFF_X1)
+                                       0.467659   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354569    0.354569   clock network delay (propagated)
+                           0.100000    0.454569   clock uncertainty
+                           0.000000    0.454569   clock reconvergence pessimism
+                                       0.454569 ^ _183842_/CK (DFF_X1)
+                           0.004225    0.458793   library hold time
+                                       0.458793   data required time
+---------------------------------------------------------------------------------------
+                                       0.458793   data required time
+                                      -0.467659   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008865   slack (MET)
+
+
+Startpoint: _180128_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180128_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358402    0.358402   clock network delay (propagated)
+               0.011713    0.000000    0.358402 ^ _180128_/CK (DFF_X1)
+   2.705698    0.007315    0.085638    0.444040 v _180128_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[30][124] (net)
+               0.007315    0.000046    0.444086 v _160157_/A1 (AND2_X1)
+   1.487792    0.005649    0.027211    0.471298 v _160157_/ZN (AND2_X1)
+                                                  _009680_ (net)
+               0.005649    0.000052    0.471349 v _180128_/D (DFF_X1)
+                                       0.471349   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358402    0.358402   clock network delay (propagated)
+                           0.100000    0.458402   clock uncertainty
+                           0.000000    0.458402   clock reconvergence pessimism
+                                       0.458402 ^ _180128_/CK (DFF_X1)
+                           0.004082    0.462484   library hold time
+                                       0.462484   data required time
+---------------------------------------------------------------------------------------
+                                       0.462484   data required time
+                                      -0.471349   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008865   slack (MET)
+
+
+Startpoint: _180770_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180770_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353406    0.353406   clock network delay (propagated)
+               0.011671    0.000000    0.353406 ^ _180770_/CK (DFF_X1)
+   2.818145    0.007413    0.085799    0.439204 v _180770_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[25][126] (net)
+               0.007413    0.000081    0.439286 v _159511_/A1 (AND2_X1)
+   1.383454    0.005542    0.027026    0.466311 v _159511_/ZN (AND2_X1)
+                                                  _009043_ (net)
+               0.005542    0.000033    0.466344 v _180770_/D (DFF_X1)
+                                       0.466344   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353406    0.353406   clock network delay (propagated)
+                           0.100000    0.453406   clock uncertainty
+                           0.000000    0.453406   clock reconvergence pessimism
+                                       0.453406 ^ _180770_/CK (DFF_X1)
+                           0.004069    0.457475   library hold time
+                                       0.457475   data required time
+---------------------------------------------------------------------------------------
+                                       0.457475   data required time
+                                      -0.466344   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008870   slack (MET)
+
+
+Startpoint: _183580_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183580_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353278    0.353278   clock network delay (propagated)
+               0.011420    0.000000    0.353278 ^ _183580_/CK (DFF_X1)
+   2.910214    0.007494    0.085863    0.439142 v _183580_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[3][120] (net)
+               0.007495    0.000062    0.439204 v _156671_/A1 (AND2_X1)
+   1.327462    0.005485    0.026939    0.466143 v _156671_/ZN (AND2_X1)
+                                                  _006255_ (net)
+               0.005485    0.000029    0.466171 v _183580_/D (DFF_X1)
+                                       0.466171   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353278    0.353278   clock network delay (propagated)
+                           0.100000    0.453278   clock uncertainty
+                           0.000000    0.453278   clock reconvergence pessimism
+                                       0.453278 ^ _183580_/CK (DFF_X1)
+                           0.004014    0.457293   library hold time
+                                       0.457293   data required time
+---------------------------------------------------------------------------------------
+                                       0.457293   data required time
+                                      -0.466171   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008879   slack (MET)
+
+
+Startpoint: _180252_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180252_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357783    0.357783   clock network delay (propagated)
+               0.011405    0.000000    0.357783 ^ _180252_/CK (DFF_X1)
+   2.694486    0.007306    0.085479    0.443262 v _180252_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[29][120] (net)
+               0.007306    0.000077    0.443338 v _160033_/A1 (AND2_X1)
+   1.527593    0.005690    0.027298    0.470637 v _160033_/ZN (AND2_X1)
+                                                  _009557_ (net)
+               0.005690    0.000054    0.470690 v _180252_/D (DFF_X1)
+                                       0.470690   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357783    0.357783   clock network delay (propagated)
+                           0.100000    0.457783   clock uncertainty
+                           0.000000    0.457783   clock reconvergence pessimism
+                                       0.457783 ^ _180252_/CK (DFF_X1)
+                           0.004020    0.461803   library hold time
+                                       0.461803   data required time
+---------------------------------------------------------------------------------------
+                                       0.461803   data required time
+                                      -0.470690   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008887   slack (MET)
+
+
+Startpoint: _181795_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181795_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349476    0.349476   clock network delay (propagated)
+               0.012089    0.000000    0.349476 ^ _181795_/CK (DFF_X1)
+   2.891360    0.007478    0.086119    0.435596 v _181795_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[17][127] (net)
+               0.007478    0.000053    0.435648 v _167439_/A1 (AND2_X1)
+   1.293057    0.005450    0.026851    0.462500 v _167439_/ZN (AND2_X1)
+                                                  _014302_ (net)
+               0.005450    0.000026    0.462526 v _181795_/D (DFF_X1)
+                                       0.462526   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349476    0.349476   clock network delay (propagated)
+                           0.100000    0.449476   clock uncertainty
+                           0.000000    0.449476   clock reconvergence pessimism
+                                       0.449476 ^ _181795_/CK (DFF_X1)
+                           0.004151    0.453627   library hold time
+                                       0.453627   data required time
+---------------------------------------------------------------------------------------
+                                       0.453627   data required time
+                                      -0.462526   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008898   slack (MET)
+
+
+Startpoint: _183584_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183584_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353908    0.353908   clock network delay (propagated)
+               0.011849    0.000000    0.353908 ^ _183584_/CK (DFF_X1)
+   2.969917    0.007548    0.086131    0.440039 v _183584_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[3][124] (net)
+               0.007548    0.000084    0.440123 v _156667_/A1 (AND2_X1)
+   1.238414    0.005394    0.026762    0.466885 v _156667_/ZN (AND2_X1)
+                                                  _006251_ (net)
+               0.005394    0.000022    0.466907 v _183584_/D (DFF_X1)
+                                       0.466907   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353908    0.353908   clock network delay (propagated)
+                           0.100000    0.453908   clock uncertainty
+                           0.000000    0.453908   clock reconvergence pessimism
+                                       0.453908 ^ _183584_/CK (DFF_X1)
+                           0.004099    0.458008   library hold time
+                                       0.458008   data required time
+---------------------------------------------------------------------------------------
+                                       0.458008   data required time
+                                      -0.466907   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008900   slack (MET)
+
+
+Startpoint: _183843_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183843_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353357    0.353357   clock network delay (propagated)
+               0.011665    0.000000    0.353357 ^ _183843_/CK (DFF_X1)
+   2.855379    0.007446    0.085867    0.439224 v _183843_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[1][127] (net)
+               0.007446    0.000077    0.439301 v _167455_/A1 (AND2_X1)
+   1.362542    0.005521    0.026994    0.466295 v _167455_/ZN (AND2_X1)
+                                                  _014318_ (net)
+               0.005521    0.000031    0.466327 v _183843_/D (DFF_X1)
+                                       0.466327   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353357    0.353357   clock network delay (propagated)
+                           0.100000    0.453357   clock uncertainty
+                           0.000000    0.453357   clock reconvergence pessimism
+                                       0.453357 ^ _183843_/CK (DFF_X1)
+                           0.004067    0.457424   library hold time
+                                       0.457424   data required time
+---------------------------------------------------------------------------------------
+                                       0.457424   data required time
+                                      -0.466327   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008903   slack (MET)
+
+
+Startpoint: _183964_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183964_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353843    0.353843   clock network delay (propagated)
+               0.011849    0.000000    0.353843 ^ _183964_/CK (DFF_X1)
+   2.695050    0.007306    0.085675    0.439518 v _183964_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[0][120] (net)
+               0.007306    0.000056    0.439574 v _152903_/A1 (AND2_X1)
+   1.504657    0.005666    0.027246    0.466819 v _152903_/ZN (AND2_X1)
+                                                  _005874_ (net)
+               0.005666    0.000052    0.466872 v _183964_/D (DFF_X1)
+                                       0.466872   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353843    0.353843   clock network delay (propagated)
+                           0.100000    0.453843   clock uncertainty
+                           0.000000    0.453843   clock reconvergence pessimism
+                                       0.453843 ^ _183964_/CK (DFF_X1)
+                           0.004111    0.457954   library hold time
+                                       0.457954   data required time
+---------------------------------------------------------------------------------------
+                                       0.457954   data required time
+                                      -0.466872   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008918   slack (MET)
+
+
+Startpoint: _183840_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183840_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353772    0.353772   clock network delay (propagated)
+               0.011882    0.000000    0.353772 ^ _183840_/CK (DFF_X1)
+   2.850209    0.007441    0.085961    0.439734 v _183840_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[1][124] (net)
+               0.007441    0.000051    0.439785 v _156405_/A1 (AND2_X1)
+   1.361867    0.005520    0.026990    0.466775 v _156405_/ZN (AND2_X1)
+                                                  _005997_ (net)
+               0.005520    0.000031    0.466806 v _183840_/D (DFF_X1)
+                                       0.466806   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353772    0.353772   clock network delay (propagated)
+                           0.100000    0.453772   clock uncertainty
+                           0.000000    0.453772   clock reconvergence pessimism
+                                       0.453772 ^ _183840_/CK (DFF_X1)
+                           0.004111    0.457884   library hold time
+                                       0.457884   data required time
+---------------------------------------------------------------------------------------
+                                       0.457884   data required time
+                                      -0.466806   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008923   slack (MET)
+
+
+Startpoint: _182946_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182946_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353692    0.353692   clock network delay (propagated)
+               0.011870    0.000000    0.353692 ^ _182946_/CK (DFF_X1)
+   2.917780    0.007502    0.086053    0.439745 v _182946_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[8][126] (net)
+               0.007502    0.000084    0.439829 v _157316_/A1 (AND2_X1)
+   1.301827    0.005459    0.026884    0.466713 v _157316_/ZN (AND2_X1)
+                                                  _006884_ (net)
+               0.005459    0.000027    0.466740 v _182946_/D (DFF_X1)
+                                       0.466740   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353692    0.353692   clock network delay (propagated)
+                           0.100000    0.453692   clock uncertainty
+                           0.000000    0.453692   clock reconvergence pessimism
+                                       0.453692 ^ _182946_/CK (DFF_X1)
+                           0.004106    0.457798   library hold time
+                                       0.457798   data required time
+---------------------------------------------------------------------------------------
+                                       0.457798   data required time
+                                      -0.466740   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008941   slack (MET)
+
+
+Startpoint: _181155_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181155_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348593    0.348593   clock network delay (propagated)
+               0.011485    0.000000    0.348593 ^ _181155_/CK (DFF_X1)
+   3.048171    0.007618    0.086103    0.434696 v _181155_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[22][127] (net)
+               0.007618    0.000108    0.434804 v _167434_/A1 (AND2_X1)
+   1.211430    0.005367    0.026736    0.461540 v _167434_/ZN (AND2_X1)
+                                                  _014297_ (net)
+               0.005367    0.000020    0.461560 v _181155_/D (DFF_X1)
+                                       0.461560   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348593    0.348593   clock network delay (propagated)
+                           0.100000    0.448593   clock uncertainty
+                           0.000000    0.448593   clock reconvergence pessimism
+                                       0.448593 ^ _181155_/CK (DFF_X1)
+                           0.004023    0.452615   library hold time
+                                       0.452615   data required time
+---------------------------------------------------------------------------------------
+                                       0.452615   data required time
+                                      -0.461560   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008944   slack (MET)
+
+
+Startpoint: _180766_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180766_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348691    0.348691   clock network delay (propagated)
+               0.011442    0.000000    0.348691 ^ _180766_/CK (DFF_X1)
+   2.726061    0.007333    0.085557    0.434248 v _180766_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[25][122] (net)
+               0.007333    0.000030    0.434278 v _159515_/A1 (AND2_X1)
+   1.537486    0.005700    0.027335    0.461612 v _159515_/ZN (AND2_X1)
+                                                  _009047_ (net)
+               0.005700    0.000052    0.461665 v _180766_/D (DFF_X1)
+                                       0.461665   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348691    0.348691   clock network delay (propagated)
+                           0.100000    0.448691   clock uncertainty
+                           0.000000    0.448691   clock reconvergence pessimism
+                                       0.448691 ^ _180766_/CK (DFF_X1)
+                           0.004028    0.452719   library hold time
+                                       0.452719   data required time
+---------------------------------------------------------------------------------------
+                                       0.452719   data required time
+                                      -0.461665   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008945   slack (MET)
+
+
+Startpoint: _181667_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181667_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349518    0.349518   clock network delay (propagated)
+               0.012089    0.000000    0.349518 ^ _181667_/CK (DFF_X1)
+   2.662104    0.007278    0.085724    0.435243 v _181667_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[18][127] (net)
+               0.007278    0.000025    0.435268 v _167438_/A1 (AND2_X1)
+   1.537486    0.005700    0.027307    0.462575 v _167438_/ZN (AND2_X1)
+                                                  _014301_ (net)
+               0.005700    0.000052    0.462627 v _181667_/D (DFF_X1)
+                                       0.462627   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349518    0.349518   clock network delay (propagated)
+                           0.100000    0.449519   clock uncertainty
+                           0.000000    0.449519   clock reconvergence pessimism
+                                       0.449519 ^ _181667_/CK (DFF_X1)
+                           0.004162    0.453680   library hold time
+                                       0.453680   data required time
+---------------------------------------------------------------------------------------
+                                       0.453680   data required time
+                                      -0.462627   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008947   slack (MET)
+
+
+Startpoint: _181919_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181919_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348413    0.348413   clock network delay (propagated)
+               0.011668    0.000000    0.348413 ^ _181919_/CK (DFF_X1)
+   2.800399    0.007397    0.085780    0.434193 v _181919_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[16][123] (net)
+               0.007397    0.000039    0.434232 v _158353_/A1 (AND2_X1)
+   1.449339    0.005610    0.027165    0.461398 v _158353_/ZN (AND2_X1)
+                                                  _007903_ (net)
+               0.005610    0.000048    0.461445 v _181919_/D (DFF_X1)
+                                       0.461445   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348413    0.348413   clock network delay (propagated)
+                           0.100000    0.448413   clock uncertainty
+                           0.000000    0.448413   clock reconvergence pessimism
+                                       0.448413 ^ _181919_/CK (DFF_X1)
+                           0.004071    0.452484   library hold time
+                                       0.452484   data required time
+---------------------------------------------------------------------------------------
+                                       0.452484   data required time
+                                      -0.461445   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008961   slack (MET)
+
+
+Startpoint: _180640_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180640_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358410    0.358410   clock network delay (propagated)
+               0.011713    0.000000    0.358410 ^ _180640_/CK (DFF_X1)
+   2.737998    0.007343    0.085692    0.444102 v _180640_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[26][124] (net)
+               0.007343    0.000031    0.444133 v _159642_/A1 (AND2_X1)
+   1.507355    0.005669    0.027271    0.471403 v _159642_/ZN (AND2_X1)
+                                                  _009172_ (net)
+               0.005669    0.000052    0.471456 v _180640_/D (DFF_X1)
+                                       0.471456   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358410    0.358410   clock network delay (propagated)
+                           0.100000    0.458410   clock uncertainty
+                           0.000000    0.458410   clock reconvergence pessimism
+                                       0.458410 ^ _180640_/CK (DFF_X1)
+                           0.004083    0.462493   library hold time
+                                       0.462493   data required time
+---------------------------------------------------------------------------------------
+                                       0.462493   data required time
+                                      -0.471456   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008963   slack (MET)
+
+
+Startpoint: _181280_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181280_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349243    0.349243   clock network delay (propagated)
+               0.011783    0.000000    0.349243 ^ _181280_/CK (DFF_X1)
+   2.841695    0.007434    0.085901    0.435145 v _181280_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[21][124] (net)
+               0.007434    0.000029    0.435174 v _158997_/A1 (AND2_X1)
+   1.404815    0.005564    0.027082    0.462256 v _158997_/ZN (AND2_X1)
+                                                  _008537_ (net)
+               0.005564    0.000044    0.462300 v _181280_/D (DFF_X1)
+                                       0.462300   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.349243    0.349243   clock network delay (propagated)
+                           0.100000    0.449243   clock uncertainty
+                           0.000000    0.449243   clock reconvergence pessimism
+                                       0.449243 ^ _181280_/CK (DFF_X1)
+                           0.004093    0.453336   library hold time
+                                       0.453336   data required time
+---------------------------------------------------------------------------------------
+                                       0.453336   data required time
+                                      -0.462300   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008964   slack (MET)
+
+
+Startpoint: _170619_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _175345_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.357176    0.357176   clock network delay (propagated)
+               0.010988    0.000000    0.357176 ^ _170619_/CK (DFFR_X2)
+   9.208026    0.017866    0.089051    0.446227 ^ _170619_/QN (DFFR_X2)
+                                                  _000059_ (net)
+               0.017866    0.000324    0.446551 ^ _169822_/C1 (OAI221_X1)
+   1.223948    0.007705    0.018427    0.464978 v _169822_/ZN (OAI221_X1)
+                                                  _000497_ (net)
+               0.007705    0.000022    0.465000 v _175345_/D (DFFR_X2)
+                                       0.465000   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352025    0.352025   clock network delay (propagated)
+                           0.100000    0.452025   clock uncertainty
+                           0.000000    0.452025   clock reconvergence pessimism
+                                       0.452025 ^ _175345_/CK (DFFR_X2)
+                           0.004009    0.456034   library hold time
+                                       0.456034   data required time
+---------------------------------------------------------------------------------------
+                                       0.456034   data required time
+                                      -0.465000   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008966   slack (MET)
+
+
+Startpoint: _179999_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _179999_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353471    0.353471   clock network delay (propagated)
+               0.011671    0.000000    0.353471 ^ _179999_/CK (DFF_X1)
+   2.937344    0.007519    0.086000    0.439471 v _179999_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[31][123] (net)
+               0.007519    0.000090    0.439561 v _160287_/A1 (AND2_X1)
+   1.314645    0.005472    0.026922    0.466483 v _160287_/ZN (AND2_X1)
+                                                  _009808_ (net)
+               0.005472    0.000028    0.466511 v _179999_/D (DFF_X1)
+                                       0.466511   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353471    0.353471   clock network delay (propagated)
+                           0.100000    0.453471   clock uncertainty
+                           0.000000    0.453471   clock reconvergence pessimism
+                                       0.453471 ^ _179999_/CK (DFF_X1)
+                           0.004066    0.457537   library hold time
+                                       0.457537   data required time
+---------------------------------------------------------------------------------------
+                                       0.457537   data required time
+                                      -0.466511   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008974   slack (MET)
+
+
+Startpoint: _182302_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182302_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352369    0.352369   clock network delay (propagated)
+               0.011313    0.000000    0.352369 ^ _182302_/CK (DFF_X1)
+   2.758573    0.007361    0.085563    0.437932 v _182302_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[13][122] (net)
+               0.007361    0.000051    0.437983 v _157965_/A1 (AND2_X1)
+   1.519498    0.005682    0.027307    0.465291 v _157965_/ZN (AND2_X1)
+                                                  _007523_ (net)
+               0.005682    0.000053    0.465343 v _182302_/D (DFF_X1)
+                                       0.465343   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352369    0.352369   clock network delay (propagated)
+                           0.100000    0.452369   clock uncertainty
+                           0.000000    0.452369   clock reconvergence pessimism
+                                       0.452369 ^ _182302_/CK (DFF_X1)
+                           0.004001    0.456369   library hold time
+                                       0.456369   data required time
+---------------------------------------------------------------------------------------
+                                       0.456369   data required time
+                                      -0.465343   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008974   slack (MET)
+
+
+Startpoint: _182685_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182685_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352347    0.352347   clock network delay (propagated)
+               0.011313    0.000000    0.352347 ^ _182685_/CK (DFF_X1)
+   2.735299    0.007341    0.085518    0.437865 v _182685_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[10][121] (net)
+               0.007341    0.000032    0.437897 v _157579_/A1 (AND2_X1)
+   1.552554    0.005716    0.027373    0.465270 v _157579_/ZN (AND2_X1)
+                                                  _007143_ (net)
+               0.005716    0.000056    0.465326 v _182685_/D (DFF_X1)
+                                       0.465326   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.352347    0.352347   clock network delay (propagated)
+                           0.100000    0.452347   clock uncertainty
+                           0.000000    0.452347   clock reconvergence pessimism
+                                       0.452347 ^ _182685_/CK (DFF_X1)
+                           0.004002    0.456349   library hold time
+                                       0.456349   data required time
+---------------------------------------------------------------------------------------
+                                       0.456349   data required time
+                                      -0.465326   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008977   slack (MET)
+
+
+Startpoint: _182691_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182691_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354274    0.354274   clock network delay (propagated)
+               0.012409    0.000000    0.354274 ^ _182691_/CK (DFF_X1)
+   2.658621    0.007275    0.085859    0.440132 v _182691_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[10][127] (net)
+               0.007275    0.000037    0.440170 v _167446_/A1 (AND2_X1)
+   1.516125    0.005678    0.027255    0.467425 v _167446_/ZN (AND2_X1)
+                                                  _014309_ (net)
+               0.005678    0.000054    0.467479 v _182691_/D (DFF_X1)
+                                       0.467479   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354274    0.354274   clock network delay (propagated)
+                           0.100000    0.454274   clock uncertainty
+                           0.000000    0.454274   clock reconvergence pessimism
+                                       0.454274 ^ _182691_/CK (DFF_X1)
+                           0.004227    0.458501   library hold time
+                                       0.458501   data required time
+---------------------------------------------------------------------------------------
+                                       0.458501   data required time
+                                      -0.467479   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008978   slack (MET)
+
+
+Startpoint: _181027_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181027_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348622    0.348622   clock network delay (propagated)
+               0.011485    0.000000    0.348622 ^ _181027_/CK (DFF_X1)
+   2.762958    0.007365    0.085636    0.434258 v _181027_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[23][127] (net)
+               0.007365    0.000066    0.434325 v _167433_/A1 (AND2_X1)
+   1.499260    0.005661    0.027263    0.461588 v _167433_/ZN (AND2_X1)
+                                                  _014296_ (net)
+               0.005661    0.000051    0.461639 v _181027_/D (DFF_X1)
+                                       0.461639   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.348622    0.348622   clock network delay (propagated)
+                           0.100000    0.448622   clock uncertainty
+                           0.000000    0.448622   clock reconvergence pessimism
+                                       0.448622 ^ _181027_/CK (DFF_X1)
+                           0.004035    0.452657   library hold time
+                                       0.452657   data required time
+---------------------------------------------------------------------------------------
+                                       0.452657   data required time
+                                      -0.461639   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008982   slack (MET)
+
+
+Startpoint: _183453_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _183453_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354616    0.354616   clock network delay (propagated)
+               0.012489    0.000000    0.354616 ^ _183453_/CK (DFF_X1)
+   2.878508    0.007466    0.086269    0.440885 v _183453_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[4][121] (net)
+               0.007466    0.000052    0.440937 v _156801_/A1 (AND2_X1)
+   1.303176    0.005460    0.026869    0.467806 v _156801_/ZN (AND2_X1)
+                                                  _006381_ (net)
+               0.005460    0.000027    0.467833 v _183453_/D (DFF_X1)
+                                       0.467833   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.354616    0.354616   clock network delay (propagated)
+                           0.100000    0.454616   clock uncertainty
+                           0.000000    0.454616   clock reconvergence pessimism
+                                       0.454616 ^ _183453_/CK (DFF_X1)
+                           0.004235    0.458851   library hold time
+                                       0.458851   data required time
+---------------------------------------------------------------------------------------
+                                       0.458851   data required time
+                                      -0.467833   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008982   slack (MET)
+
+
+Startpoint: _180898_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180898_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353401    0.353401   clock network delay (propagated)
+               0.011671    0.000000    0.353401 ^ _180898_/CK (DFF_X1)
+   3.051196    0.007621    0.086192    0.439593 v _180898_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[24][126] (net)
+               0.007621    0.000086    0.439679 v _159382_/A1 (AND2_X1)
+   1.220200    0.005376    0.026757    0.466436 v _159382_/ZN (AND2_X1)
+                                                  _008916_ (net)
+               0.005376    0.000021    0.466457 v _180898_/D (DFF_X1)
+                                       0.466457   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353401    0.353401   clock network delay (propagated)
+                           0.100000    0.453401   clock uncertainty
+                           0.000000    0.453401   clock reconvergence pessimism
+                                       0.453401 ^ _180898_/CK (DFF_X1)
+                           0.004062    0.457463   library hold time
+                                       0.457463   data required time
+---------------------------------------------------------------------------------------
+                                       0.457463   data required time
+                                      -0.466457   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008994   slack (MET)
+
+
+Startpoint: _181023_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _181023_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.347685    0.347685   clock network delay (propagated)
+               0.011496    0.000000    0.347685 ^ _181023_/CK (DFF_X1)
+   2.809506    0.007405    0.085721    0.433406 v _181023_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[23][123] (net)
+               0.007405    0.000032    0.433439 v _159254_/A1 (AND2_X1)
+   1.476323    0.005638    0.027231    0.460670 v _159254_/ZN (AND2_X1)
+                                                  _008792_ (net)
+               0.005638    0.000050    0.460719 v _181023_/D (DFF_X1)
+                                       0.460719   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.347685    0.347685   clock network delay (propagated)
+                           0.100000    0.447685   clock uncertainty
+                           0.000000    0.447685   clock reconvergence pessimism
+                                       0.447685 ^ _181023_/CK (DFF_X1)
+                           0.004037    0.451722   library hold time
+                                       0.451722   data required time
+---------------------------------------------------------------------------------------
+                                       0.451722   data required time
+                                      -0.460719   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008998   slack (MET)
+
+
+Startpoint: _180515_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _180515_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358351    0.358351   clock network delay (propagated)
+               0.011708    0.000000    0.358351 ^ _180515_/CK (DFF_X1)
+   3.107537    0.007671    0.086321    0.444672 v _180515_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[27][127] (net)
+               0.007671    0.000064    0.444736 v _167429_/A1 (AND2_X1)
+   1.168255    0.005323    0.026663    0.471400 v _167429_/ZN (AND2_X1)
+                                                  _014292_ (net)
+               0.005323    0.000017    0.471417 v _180515_/D (DFF_X1)
+                                       0.471417   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.358351    0.358351   clock network delay (propagated)
+                           0.100000    0.458351   clock uncertainty
+                           0.000000    0.458351   clock reconvergence pessimism
+                                       0.458351 ^ _180515_/CK (DFF_X1)
+                           0.004067    0.462419   library hold time
+                                       0.462419   data required time
+---------------------------------------------------------------------------------------
+                                       0.462419   data required time
+                                      -0.471417   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.008998   slack (MET)
+
+
+Startpoint: _182431_ (rising edge-triggered flip-flop clocked by clk)
+Endpoint: _182431_ (rising edge-triggered flip-flop clocked by clk)
+Path Group: clk
+Path Type: min
+
+        Cap        Slew       Delay        Time   Description
+---------------------------------------------------------------------------------------
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353692    0.353692   clock network delay (propagated)
+               0.011916    0.000000    0.353692 ^ _182431_/CK (DFF_X1)
+   2.891325    0.007478    0.086045    0.439737 v _182431_/Q (DFF_X1)
+                                                  key_tweak.key_bank.storage[12][123] (net)
+               0.007478    0.000056    0.439792 v _157835_/A1 (AND2_X1)
+   1.353097    0.005511    0.026989    0.466781 v _157835_/ZN (AND2_X1)
+                                                  _007395_ (net)
+               0.005511    0.000031    0.466811 v _182431_/D (DFF_X1)
+                                       0.466811   data arrival time
+
+                           0.000000    0.000000   clock clk (rise edge)
+                           0.353692    0.353692   clock network delay (propagated)
+                           0.100000    0.453692   clock uncertainty
+                           0.000000    0.453692   clock reconvergence pessimism
+                                       0.453692 ^ _182431_/CK (DFF_X1)
+                           0.004118    0.457810   library hold time
+                                       0.457810   data required time
+---------------------------------------------------------------------------------------
+                                       0.457810   data required time
+                                      -0.466811   data arrival time
+---------------------------------------------------------------------------------------
+                                       0.009002   slack (MET)
+
+

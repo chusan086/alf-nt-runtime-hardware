@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this artifact, cite the associated paper."
+title: "Runtime-Parameterized ALF Hardware Artifact"
+type: software
+version: 0.2.0-rc1
+date-released: 2026-08-14
+license: MIT
+abstract: "Final-RAM reviewer artifact for a runtime-parameterized ALF-n-t shared hardware architecture and two same-source fixed instances."
+authors:
+  - family-names: "Anonymous"
+    given-names: "Authors"
