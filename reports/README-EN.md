@@ -85,3 +85,5 @@ Consequently this is core-level physical evidence, not package or signoff
 timing. WNS implies a descriptive 2.019555 ns critical-period proxy, but no
 implementation was run at that period and it is not reported as achieved
 frequency.
+
+For Chinese documentation, see [README-CN.md](README-CN.md).

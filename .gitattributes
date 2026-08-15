@@ -6,3 +6,4 @@
 LICENSE text eol=lf
 SHA256SUMS.txt text eol=lf
 reports/** -diff -text
+reports/**/*.md text eol=lf diff

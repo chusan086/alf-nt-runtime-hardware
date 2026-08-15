@@ -18,3 +18,5 @@ It is accompanied by `openroad.exit` (`0`) and
 antenna zero-violation lines from the OpenROAD log. The reset input-delay
 warning is retained in
 `50-postroute-check-setup.rpt`.
+
+For Chinese documentation, see [README-CN.md](README-CN.md).

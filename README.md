@@ -15,13 +15,13 @@
 共享核 RTL 声明的合法域覆盖 `n=2..15`、`t=0..7` 的 112 个参数对，并在
 `2^(8n+t-1) < Q <= 2^(8n+t)` 内接收合法运行时 `Q`。FPGA 报告使用
 `xc7a200tfbg676-2` 和 Vivado 2020.2。具体数字、报告对应关系和口径限制见
-`reports/README.md`。作者的全参数仿真验证不随这一精简工件发布，不能把目录中
+`reports/README-CN.md`。作者的全参数仿真验证不随这一精简工件发布，不能把目录中
 有限的代表性实现报告误读成 112 个参数点全部完成布局布线。
 
 M1 和 M4 是论文实验矩阵中已冻结的同源固定对照，不代表本仓库提供任意参数
 固定核生成能力。两套固定核使用相同的顶层模块名，编译时只能选择其中一套。
-接口、编译顺序和固定对照边界分别见 `docs/INTERFACE.md`、
-`docs/PORTING.md` 和 `docs/FIXED-CORES.md`。
+接口、编译顺序和固定对照边界分别见 `docs/INTERFACE-CN.md`、
+`docs/PORTING-CN.md` 和 `docs/FIXED-CORES-CN.md`。
 
 在 PowerShell 中可用以下命令核对全部发布文件：
 

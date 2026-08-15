@@ -22,14 +22,15 @@ The legal domain declared by the shared RTL covers all 112 pairs with
 `2^(8n+t-1) < Q <= 2^(8n+t)`. FPGA reports use `xc7a200tfbg676-2` and Vivado
 2020.2. The authors' full-parameter simulation suite is not distributed in
 this lean artifact; the representative implementation reports must not be
-read as routed evidence for all 112 pairs. See `reports/README.md` for the
+read as routed evidence for all 112 pairs. See `reports/README-EN.md` for the
 exact report-to-claim mapping and scope limits.
 
 M1 and M4 are frozen same-source controls from the paper's experiment matrix;
 this repository does not claim arbitrary-parameter fixed-core generation.
 Both fixed directories expose the same top-level module name, so compile only
-one fixed directory at a time. See `docs/INTERFACE.md`, `docs/PORTING.md`, and
-`docs/FIXED-CORES.md` for the protocol, compile order, and comparison boundary.
+one fixed directory at a time. See `docs/INTERFACE-EN.md`, `docs/PORTING-EN.md`,
+and `docs/FIXED-CORES-EN.md` for the protocol, compile order, and comparison
+boundary.
 
 Use PowerShell 7 on Windows, Linux, or macOS to verify both the exact payload
 set and every file hash:

@@ -41,3 +41,5 @@ configuration bits 31:10 to be zero, and the 128-bit input to be smaller than
 The released M1/M4 fixed tops retain the 20-word transport for matched
 comparison and require the transmitted `Q`, `n`, and `t` to equal the fixed
 instance constants exactly.
+
+For Chinese documentation, see [INTERFACE-CN.md](INTERFACE-CN.md).

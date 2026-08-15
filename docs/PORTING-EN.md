@@ -20,3 +20,5 @@ sources because it otherwise treats ANSI `input logic` declarations under
 ``default_nettype none`` as errors. This is a compiler-front-end compatibility
 option; it does not alter RTL behavior. The released shared source and the
 frozen M1/M4 fixed sources use the same compiler option.
+
+For Chinese documentation, see [PORTING-CN.md](PORTING-CN.md).

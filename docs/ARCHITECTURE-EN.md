@@ -14,3 +14,4 @@ static parameter point. This is the accepted same-source comparison boundary.
 The release is family-bounded. It does not claim a universal shared-hardware
 method for unrelated cryptographic families.
 
+For Chinese documentation, see [ARCHITECTURE-CN.md](ARCHITECTURE-CN.md).
